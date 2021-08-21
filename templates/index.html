@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='leaflet-ant-path.js') }}"></script>
+    <script src='https://unpkg.com/@turf/turf/turf.min.js'></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='Map.SelectArea.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='basics.js') }}"></script>
+</head>
+<body>
+    
+    <div class = "watersheds">
+        <label>show watersheds layer</label>
+        <input type="checkbox" id="watershedsCheckbox" name="watershedsCheckbox" onclick="checkboxChange('watersheds')">
+        <div id = "watershedsData"></div>
+    </div>
+    <div class = "counties">
+        <label>show counties layer</label>
+        <input type="checkbox" id="countiesCheckbox" name="countiesCheckbox" onclick="checkboxChange('counties')">
+        <div id = "countiesData"></div>
+    </div>
+    <div class = "powerPlants">
+        <label>show power plants layer</label>
+        <input type="checkbox" id="powerPlantsCheckbox" name="powerPlantsCheckbox" onclick="checkboxChange('powerPlants')">
+        <div id = "powerPlantsData"></div>
+    </div>
+    <div class = "urbanArea">
+        <label>show urban area layer</label>
+        <input type="checkbox" id="urbanAreaCheckbox" name="urbanAreaCheckbox" onclick="setPopulationData();checkboxChange('urbanArea');">
+        <div id = "urbanAreaData"></div>
+    </div>
+    <div class = "swp">
+        <label>show swp path layer</label>
+        <input type="checkbox" id="swpCheckbox" name="swpCheckbox" onclick="checkboxChange('swp');">
+        <div id = "swpData"></div>
+    </div>
+    <div class = "stations">
+        <label>show stations layer</label>
+        <input type="checkbox" id="stationsCheckbox" name="stationsCheckbox" onclick="checkboxChange('stations');">
+        <div id = "stationsData"></div>
+    </div>
+    <div class = "contractors">
+        <label>show contractors layer</label>
+        <input type="checkbox" id="contractorsCheckbox" name="contractorsCheckbox" onclick="checkboxChange('contractors');">
+        <div id = "contractorsData"></div>
+    </div>
+    <div class = "services">
+        <label>show services layer</label>
+        <input type="checkbox" id="servicesCheckbox" name="servicesCheckbox" onclick="checkboxChange('services');">
+        <div id = "contractorsData"></div>
+    </div>
+<div id = "mapid"></div>
+<a id="download"></a>
+
+
+<script>
+    //map object
+    var numberFormat = d3.format(',');
+	var map = L.map('mapid').setView([38.556,-118.7005], 5.5);
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/light-v10',
+		maxZoom: 18,		
+		tileSize: 512,
+		zoomOffset: -1,
+		accessToken: 'pk.eyJ1Ijoiam9leWd1c3Rhdm9wYWl2YSIsImEiOiJja2ZvcGs1cTMwMm8zMzRzenc3Ynk0aWxqIn0.mfVRfkPtN9InpxFVFQV1LQ'
+    }).addTo(map);
+    map.selectArea.enable();
+	map.on('areaselected',function(e) {
+		var selected = [];
+		map.eachLayer(function(layer) {		
+			if (layer instanceof L.Marker) {				
+				if (e.bounds.contains(layer.getLatLng())) {
+                    selected.push(layer.options.id);
+                }
+			}
+			
+        });
+        var reqData = {
+                        name: "getStreamflow",
+                        stations: selected,
+                        dateRange: ["01-01-2000","01-01-2020"]
+        };
+        fetchStreamflowData(`${window.origin}/index`,reqData)
+        var info = L.control(); 
+        info.onAdd = function (map) {
+            this.div = L.DomUtil.create('div', 'info');
+            this.update(selected);
+            return this.div;
+        };
+        info.update = function (selected) {
+            this.div.innerHTML += "Selected Stations: "
+            this.div.innerHTML += selected.join(',')
+        };
+        info.addTo(map);
+	});
+
+
+    var urbanAreaPopulationData;
+
+    //dictionary of layer groups
+    var layers = {
+        "watersheds": null,
+        "counties": null,
+        "urbanArea": null,
+        "urbanAreaPopulation": null,
+        "swp":null,
+        "services":null,
+        "contractors": null,
+        "stations":null,
+        "powerPlants":null 
+    };
+
+    function getPopulation(name) {
+			for (i=0;i<urbanAreaPopulationData.length;i++) {
+				if (name.includes(urbanAreaPopulationData[i].NAME)) {
+					return +urbanAreaPopulationData[i].POP;
+				}	
+			}
+			return 0;
+	}
+    
+    function setPopulationData(){
+        var checkbox = document.getElementById("urbanAreaCheckbox");
+        if(checkbox.checked==true){
+            var reqData = {
+                name: "urbanAreaPopulation"
+            }
+            fetchData(`${window.origin}/index`,reqData)
+        }
+        else{
+            return;
+        }
+    }
+
+    //dictionary of functions that generate layers associated with each keys
+    var layerFunctions={
+        "watersheds": function (dataToAdd){
+            var wsu = {
+			            "color": "#993655",
+			            "weight": 1,
+			            "opacity": 0.9
+		            };
+		            function onEachWatershedFeature(feature, layer) {
+			            layer.on('click', function (e) {
+			                L.popup().setLatLng(e.latlng).setContent("<b>"+feature.properties.HUC8+"</b><br />"+feature.properties.Name).openOn(map);
+			            });
+		            }
+		            layers['watersheds'] = L.layerGroup([L.geoJSON(dataToAdd,{style: wsu,onEachFeature: onEachWatershedFeature})]).addTo(map);
+                    
+        },
+
+
+        "counties": function (dataToAdd){
+            var county = {
+			"color": "#934621",
+			"weight": 1,
+			"opacity": 0.9
+            };
+            function onEachCountyFeature(feature, layer) {
+                layer.on('click', function (e) {
+                L.popup().setLatLng(e.latlng).setContent("<b>"+feature.properties.NAME+"</b>").openOn(map);
+                });
+            }
+            layers['counties'] = L.layerGroup([L.geoJSON(dataToAdd,{style: county,onEachFeature: onEachCountyFeature})]).addTo(map);
+        },
+
+
+        "urbanArea": function (dataToAdd){
+            dataToAdd.features.forEach(
+                function(feature) {
+                    var value = getPopulation(feature.properties['NAME10']);
+                    feature.properties['POP'] = value;
+                }
+            );
+            var urbanArea = {
+                "color": "#d3e18d",
+                "weight": 1,
+                "opacity": 0.9
+            };
+            function onEachUrbanAreaFeature(feature, layer) {
+                layer.on('click', function (e) {
+                L.popup().setLatLng(e.latlng).setContent("<b>"+feature.properties.NAME10+"</b><br />Population: "+numberFormat(feature.properties.POP)).openOn(map);
+                });
+            }
+            layers['urbanArea'] = L.layerGroup([L.geoJSON(dataToAdd,{style: urbanArea,onEachFeature: onEachUrbanAreaFeature})]).addTo(map);
+        },
+
+
+
+        "urbanAreaPopulation": function(dataToAdd){
+            urbanAreaPopulationData=dataToAdd;
+        },
+
+        "swp": function(dataToAdd){
+            var hydroelectricIcon = L.icon({
+                iconUrl: './static/icons/Hydroeletric2.png',
+                iconSize: [38, 22],
+                iconAnchor: [19, 4],
+                popupAnchor: [0, 0]
+            });
+            var pumpingIcon = L.icon({
+                iconUrl: './static/icons/Pumping2.png',
+                iconSize: [41, 23],
+                iconAnchor: [20, 4],
+                popupAnchor: [0, 0] 
+            });
+            var lakeIcon = L.icon({
+                iconUrl: './static/icons/Lake2.png',
+                iconSize: [36, 27],
+                iconAnchor: [18, 4],
+                popupAnchor: [0, 0]
+            });
+            var squareIcon = L.icon({
+                iconUrl: '/static/icons/square.png',
+                iconSize: [12, 12],
+                iconAnchor: [6, 4],
+                popupAnchor: [0, 0]
+            });
+            var triangleIcon = L.icon({
+                iconUrl: '/static/icons/triangle.png',
+                iconSize: [14, 14],
+                iconAnchor: [7, 4],
+                popupAnchor: [0, 0]
+            });
+            
+            var useIcons = false;
+            var lsReservoir = d3.scaleLinear().domain([22566,3537577]).range([3,15]);
+            var lsCities = d3.scaleLinear().domain([91350,3990000]).range([3,15]);
+            
+            var stateColor = '#f1ad2b';
+            var federalColor = '#d81569';
+            var localColor = '#57b145';
+
+            function onEachPathFeature(feature, layer) {
+		
+                if (feature.properties.type == 'river') {
+                    var options = {
+                    "delay": 400,
+                    "dashArray": [
+                        10,
+                        20
+                    ],
+                    "weight": 5,
+                    "color": "#0000FF",
+                    "pulseColor": "#FFFFFF",
+                    "paused": false,
+                    "reverse": false,
+                    "hardwareAccelerated": true
+                    }
+                    L.polyline.antPath(feature.geometry.coordinates, options).addTo(map);
+                }
+            
+                layer.on('mouseover', function (e) {
+                    var text = "";
+                    switch (feature.properties.type) {
+                        case "reservoir":
+                            text = "Volume (taf): "+numberFormat(feature.properties.vol);
+                            break;
+                        case "city":
+                            text = "Population: "+numberFormat(feature.properties.pop);
+                            break;
+                            
+                    }
+                    L.popup().setLatLng(e.latlng).setContent("<b>"+feature.properties.name+"</b><br />"+text).openOn(map);
+                    });
+            }
+            layers['swp'] = L.layerGroup([L.geoJSON(dataToAdd,{
+                                            style: function(feature) {
+                                                    var c = 'black';	
+                                                    switch (feature.properties.project) {
+                                                        case 'state':
+                                                                c = stateColor;
+                                                                break;
+                                                        case 'federal':
+                                                                c = federalColor;
+                                                                break; 		
+                                                        case 'local':
+                                                                c = localColor;
+                                                                break;		
+                                                    }												   
+                                                    switch (feature.properties.type) {
+                                                        case 'river':
+                                                            return {
+                                                                color: 'blue',
+                                                                weight: 4,
+                                                                opacity: 0.8
+                                                            };
+                                                            break;
+                                                        case 'aqueduct':
+                                                            return {
+                                                                color: c,															
+                                                                weight: 10,
+                                                                dashArray: '4,12,4,12',
+                                                                lineJoin: 'round',
+                                                                lineCap: 'round'
+                                                            };
+                                                            break;
+                                                    }
+                                                    },
+                                            onEachFeature: onEachPathFeature,
+                                            pointToLayer: function (feature, latlng) {
+                                                switch (feature.properties.type) {
+                                                    case "reservoir":
+                                                        if (useIcons) 
+                                                            return L.marker(latlng, {icon: lakeIcon});
+                                                        else {
+                                                        return L.circleMarker(latlng, {
+                                                            radius: lsReservoir(feature.properties.vol),
+                                                            fillColor: "blue",
+                                                            color: "#000",
+                                                            weight: 1,
+                                                            opacity: 1,
+                                                            fillOpacity: 0.8
+                                                        });
+                                                        }
+                                                        break;
+                                                    case "hydroelectric":
+                                                        if (useIcons) 
+                                                            return L.marker(latlng, {icon: hydroelectricIcon});
+                                                        else {
+                                                            return L.marker(latlng, {icon: squareIcon});
+                                                            //var circle = new L.Circle(latlng,5).addTo(map);
+                                                            //return L.Rectangle(circle.getBounds()).addTo(map);	
+                                                        }
+                                                        break;
+                                                    case "pumping":
+                                                        if (useIcons) 
+                                                            return L.marker(latlng, {icon: pumpingIcon});
+                                                        else {
+                                                            return L.marker(latlng, {icon: triangleIcon});
+                                                        }
+                                                        break;
+                                                    case "city":
+                                                        if (useIcons) 
+                                                            return L.marker(latlng, {icon: hydroelectricIcon});
+                                                        else {
+                                                            return L.circleMarker(latlng, {
+                                                                radius: lsCities(feature.properties.pop),
+                                                                fillColor: "black",
+                                                                color: "red",
+                                                                weight: 1,
+                                                                opacity: 1,
+                                                                fillOpacity: 0.8
+                                                            });
+                                                        }
+                                                        break;	
+                                                }
+                                            }
+                                            })]).addTo(map);
+        },
+
+
+
+        "services":function (dataToAdd){
+            //console.log(dataToAdd);
+            var servicesAreaScale = d3.scaleSequentialQuantile([0, 100000], d3.interpolateBlues)
+            var summaryByContractor = d3.nest().key(function(d) {return d.properties.d_prin_cnt;})
+							.rollup(function(v,i) {
+										return {
+											population: d3.sum(v,function(di){return di.properties.d_populati}),
+											fillColor: '#'+Math.random().toString(16).substr(2,6)
+										};
+									})
+							.object(dataToAdd.features);
+            console.log(summaryByContractor);
+            var lsServices = d3.scaleLinear().domain(d3.extent(Object.values(summaryByContractor).map(function(d){return d.population;}))).range([3,15]);		
+            
+            var servicesAreaScale = d3.scaleLinear()
+									.domain(d3.extent(Object.values(summaryByContractor).map(function(d){return d.population;})))
+									.range(['#a7c0e8','#06224f']);
+
+            function onEachServiceFeature(feature,layer) {
+                var value = summaryByContractor[feature.properties.d_prin_cnt].population;
+                layer.on('click', function (e) {
+                    L.popup().setLatLng(e.latlng).setContent("<b>"+feature.properties.d_prin_cnt+"</b><br />Population served: "+numberFormat(value)).openOn(map);			  
+                });
+		    }
+
+            function servicesAreaStyle(feature) {
+                var value = summaryByContractor[feature.properties.d_prin_cnt].population;
+                return {
+                    //fillColor: servicesAreaScale(+feature.properties.d_populati),
+                    fillColor: servicesAreaScale(value),
+                    weight: 1,
+                    opacity: 1,
+                    color: servicesAreaScale(value),
+                    fillOpacity: 0.8
+                };
+		    }
+
+            layers['services'] = L.layerGroup([L.geoJSON(dataToAdd,{style: servicesAreaStyle, onEachFeature: onEachServiceFeature})]).addTo(map);
+            
+        },
+        
+        "contractors": function(dataToAdd){
+            var cts = [];
+            var latOrig, longOrig;
+            var DWRIcon = L.icon({
+                iconUrl: '/static/square.png',
+                iconSize: [12, 12],
+                iconAnchor: [6, 4],
+                popupAnchor: [0, 0]
+            });
+            var summary = [];
+            dataToAdd.forEach(function(ct) {
+                var sum = 0;
+                var num = 0;
+                for(var key in ct) {
+                    if (key.startsWith('Total_')) {
+                        sum += +ct[key];
+                        num++;
+                    }
+                }
+                if (num != 0)
+                    summary.push({"id":+ct['ID'],"LAT":ct['LAT'],"LONG":ct['LONG'],"Contractor":ct['Contractor'],"avg":(sum/num)});
+                else
+                    summary.push({"id":+ct['ID'],"LAT":ct['LAT'],"LONG":ct['LONG'],"Contractor":ct['Contractor'],"avg":0});
+            });
+                
+            var extents = d3.extent(summary,function(d){return +d.avg});
+            var lsContractors = d3.scaleLinear().domain(extents).range([3,15]);
+            summary.sort(function(a,b) {return +b.avg-+a.avg;})
+            .forEach(function(ct,i) {
+                var marker;
+                if (ct.id == 0) {
+                    marker	= L.marker([ct.LAT,ct.LONG], {icon: DWRIcon, id: ct["ID"]});
+                }else {
+                    marker = L.circleMarker([ct.LAT,ct.LONG], {
+                                radius: lsContractors(ct.avg),
+                                fillColor: "green",
+                                color: "black",
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8,
+                                id: ct["ID"]
+                            });
+                    marker.on('click',function(e) {
+                                    var page = '<html><head></head><body><div><object type="text/html" data="http://localhost:8080/map/interactiveMap/linechart.html?c='+ct.id+'" width="350px" height="170px"></object></div></body></html>'
+                                    L.popup().setLatLng(e.latlng).setContent(page).openOn(map);
+                                });
+                                
+                    marker.on('mouseover',function(e) {
+                                        var text = "<b>"+ct.Contractor+"</b>"
+                                        L.popup().setLatLng(e.latlng).setContent(text).openOn(map);
+                                    });	
+                }		
+                cts.push(marker);
+            })
+            layers['contractors'] = L.layerGroup(cts).addTo(map);
+        },
+
+
+        "stations": function(dataToAdd){
+            var stations = [];
+            var refStation = L.icon({
+                iconUrl: `${window.origin}/static/refStation.png`,
+                iconSize: [16, 28],
+                iconAnchor: [11, 4],
+                popupAnchor: [0, 0] 
+            });
+            var nonRefStation = L.icon({
+                iconUrl: `${window.origin}/static/nonRefStation.png`,
+                iconSize: [16, 28],
+                iconAnchor: [11, 4],
+                popupAnchor: [0, 0]
+            });
+            // layers['stations'] = L.layerGroup().addTo(map);
+            console.log(dataToAdd.length);
+            dataToAdd.forEach(function(station,i){
+                console.log(station.STAID)
+                /*
+                var circle = L.circle([station.LAT_GAGEs,station.LNG_GAGE], {
+                            id: station.STAID,
+                            color: 'black',
+                            fillColor: 'black',
+                            fillOpacity: 1.0,
+                            radius: 50
+                        });
+                if (station.CLASS == 'Ref') circle.setStyle({color:'red',fillColor:'red'});
+                else if (station.CLASS == 'Non-ref') circle.setStyle({color:'yellow',fillColor:'yellow'});
+                */
+                var circle;
+                if (station.CLASS == 'Ref') {
+                    circle = L.marker([station.LAT_GAGE,station.LNG_GAGE], {icon: refStation, id: station.STAID, CLASS: 'Ref'});
+                }else if (station.CLASS == 'Non-ref') {
+                    circle = L.marker([station.LAT_GAGE,station.LNG_GAGE], {icon: nonRefStation, id: station.STAID, CLASS: 'Non-ref'});
+                }
+                circle.on('click',function(e) {
+                                    //var page = "<b>"+station.CLASS+"</b><br />"+station.STAID+": "+station.STANAME;
+                                    var page = '<html><head></head><body><div><object type="text/html" data="http://localhost:8080/map/interactiveMap/stationFlow.html?s='+station.STAID+'&y=2018" width="400px" height="140px"></object></div></body></html>'
+                                    L.popup().setLatLng(e.latlng).setContent(page).openOn(map);
+                                });
+                //layers['stations'].addLayer(circle);
+                stations.push(circle);				
+            });
+            layers['stations'] = L.layerGroup(stations).addTo(map);
+        },
+
+
+
+
+        "powerPlants": function(dataToAdd){
+            
+            //var pp = [];
+            var ppIcon = L.icon({
+                iconUrl: './data/icons/square.png',
+                iconSize: [12, 12],
+                iconAnchor: [6, 4],
+                popupAnchor: [0, 0]
+            });
+            dataToAdd = dataToAdd.filter(function(d){
+                console.log(d.General_Fuel);
+                
+                return ((d.General_Fuel == 'Hydro')&&(d.State_ == 'CA')&&(d.Status == 'Operating'));
+            });
+            console.log(dataToAdd);
+            layers['powerPlants']= L.layerGroup().addTo(map);
+            dataToAdd.forEach(function(station,i) {
+                var circle;
+                console.log(station.Latitude);
+                circle = L.marker([station.Latitude,station.Longitude], {icon: ppIcon});
+                circle.on('click',function(e) {
+                                    var page = "<b>"+station.Plant_ID+": "+station.Plant_Label+"</b><br />"; //+numberFormat(station.Gross_MWh)+" MWh";
+                                    L.popup().setLatLng(e.latlng).setContent(page).openOn(map);
+                                });
+                layers['powerPlants'].addLayer(circle);				
+            })
+            
+         } 
+        };
+    
+    //sends server a post request containing layer desired and receives data sent by server as a response
+    function fetchData(url,reqData){
+        fetch(url,{
+                method: "POST",
+                credentials: "include",
+                body: JSON.stringify(reqData),
+                cache: "no-cache",
+                headers: new Headers(
+                    {"content-type": "application/json",
+                     "accept": "application/json"}
+                )
+            })
+            .then(function (response){
+                if(response.status!=200){
+                    console.log(response.status);
+                    return;
+                }
+                response.json().then(function(data){
+                    var dataToAdd = data;
+                    layerFunctions[reqData.name](dataToAdd);
+                })
+            })
+    }
+
+    function fetchStreamflowData(url,reqData){
+        fetch(url,{
+                method: "POST",
+                credentials: "include",
+                body: JSON.stringify(reqData),
+                cache: "no-cache",
+                headers: new Headers(
+                    {"content-type": "application/json",
+                     "accept": "application/json"}
+                )
+            })
+            .then(function (response){
+                if(response.status!=200){
+                    console.log(response.status);
+                    return;
+                }
+                response.json().then(function(data){
+                    console.log(data)
+                    var csv = JSON2CSV(data)
+                    var downloadLink = document.getElementById("download");
+                    downloadLink.innerHTML = "download data";
+                    var blob = new Blob(["\ufeff", csv]);
+                    var url = URL.createObjectURL(blob);
+                    downloadLink.href = url;
+                    downloadLink.download = "streamflow.csv";
+                    downloadLink.onclick = function(e)
+                    {
+                        var that = this;
+                        setTimeout(function() {
+                            window.URL.revokeObjectURL(that.href);
+                        }, 1500);
+
+                    };
+                    //document.body.appendChild(downloadLink);
+                    var yearList = [];
+                    for(var i=2000; i<=2020;i++)
+                    {
+                        yearList.push(i);
+                    }
+                    loadMatricesLayout(data,reqData["stations"],yearList);
+                    loadLineChart(data,"STREAMFLOW",1)
+                    loadLineChart(data,"STREAMFLOW",2)
+                })
+            })
+    }
+    function JSON2CSV(objArray) {
+        var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+        var str = '';
+        var line = '';
+
+        for (var i = 0; i < array.length; i++) {
+            var line = '';
+
+            for (var index in array[i]) {
+            line += array[i][index] + ',';
+            }
+
+            line = line.slice(0, -1);
+            str += line + '\r\n';
+        }
+        return str;
+    }
+    //if user checks or unchecks a layer checkbox to either show or remove a layer from their view, this function will be called
+    function checkboxChange(layer){
+        var checkbox = document.getElementById(`${layer}Checkbox`);
+        var dataContainer = document.getElementById(`${layer}Data`);
+        if(checkbox.checked==true){
+           
+            var reqData = 
+            {
+                name: `${layer}`
+            };
+            fetchData(`${window.origin}/index`,reqData);
+        }
+        else{
+            map.removeLayer(layers[layer]);
+        }
+    }
+
+    function loadMatricesLayout(data,stationList,yearList) {
+        var sizeCells = 20;
+        var heightMatrices = 12*sizeCells, widthMatrices = 50*sizeCells;
+        var toolTip = d3.select('body').append('div').attr('class','tooltip').style('opacity', 0);
+
+        var predictionHeatMatricesDiv = d3.select('#predictionHeatMatricesDiv');
+
+        //If there is already a div, we use it. Otherwise, we create a new one.	
+        if (predictionHeatMatricesDiv.empty()) {
+            predictionHeatMatricesDiv = d3.select('body').append('div')
+            .attr('id','predictionHeatMatricesDiv').attr('class','layout')
+            .style('style','height:'+(heightMatrices+sizeCells+10)+'px;max-width:'+(widthMatrices+sizeCells+10)+'px;')
+        }
+        predictionHeatMatricesDiv.selectAll("*").remove();
+
+        var min = 0;
+        var max = d3.max(data,function(d){return +d.STREAMFLOW;});
+        //Creating SVG and Group for the matrix
+        var matrixID = "matrix"
+        stationList.forEach(function(d){
+            matrixID+=d;
+        })
+        var predictionHeatMatricesSVG = predictionHeatMatricesDiv.append('svg').attr('id',matrixID+'SVG')
+                                            .attr('height',((heightMatrices+sizeCells+12)))
+                                            .attr('width',(widthMatrices+sizeCells));
+        var matrixTooltip = d3.select('body').append('div').attr('id','tooltip'+matrixID).attr('class','tooltip').style('opacity', 0);
+        var predictionHeatMatricesG = predictionHeatMatricesSVG.append('g').attr('id',matrixID+'G')
+                                                   .attr('transform','translate(' + 0 + ',' + 0 + ')');
+        buildMatrix(data,stationList,yearList,min,max,matrixID);
+    }
+    function buildMatrix(data,stationList,yearList,min,max,matrixID) {
+
+        var sizeCells = 20;
+        var heightMatrices = 12*sizeCells, widthMatrices = 50*sizeCells;
+        var toolTip = d3.select('body').append('div').attr('class','tooltip').style('opacity', 0);
+
+        var container = d3.select('#'+matrixID+'G');
+        var containerSVG = d3.select('#'+matrixID+'SVG');
+        var colorScale = d3.scaleLinear().domain([min,max]).range(['white','blue']);
+                                    
+        var format = d3.format(",.2f");
+        
+        var months = createRange(+waterYearStart.split('-')[0],12,+waterYearStart.split('-')[0]-1);
+        var days = createRange(+waterYearStart.split('-')[1],31,+waterYearStart.split('-')[1]-1);
+        var realByMonth = d3.nest().key(function(d) {return d.DATE.split('-')[1];}).entries(data);
+        months.forEach(function(month,i) {
+            var realDays = realByMonth.filter(function(d){return +d.key == month});
+            container.append('text').text(month).attr('x',0).attr('y',(i+1)*sizeCells).attr('class','smallLabel');
+            days.forEach(function(day,j){
+                var rect = container.append('rect').attr('x',(j+1)*sizeCells+2).attr('y',i*sizeCells)
+                                .attr('width',sizeCells).attr('height',sizeCells).style('stroke','none');
+                var realDayData = realDays[0].values.filter(function(d){return +d.DATE.split('-')[2] == day;});
+                if (realDayData.length != 0) {
+                    rect.attr('id','rect-'+realDayData[0].DATE)
+                        .attr('date',realDayData[0].DATE)
+                        .attr('value',realDayData[0].STREAMFLOW)
+                        .attr('station',stationList)
+                        .attr('fill',colorScale(realDayData[0].STREAMFLOW))
+                        .on('mouseout', function(d) {
+                            var date = d3.select(this).attr('date').split('-');
+                            var rects = d3.selectAll("rect[id$='"+date[1]+"-"+date[2]+"']");
+                            rects.style('stroke','none');
+                            rects.each(function(d){
+                                
+                                var tooltipMatrix = d3.select('#tooltip'+matrixID);
+                                tooltipMatrix.style('opacity', .0);
+                            });
+                        })
+                        .on('mouseover', function(d) {
+                            var date = d3.select(this).attr('date').split('-');
+                            var rects = d3.selectAll("rect[id$='"+date[1]+"-"+date[2]+"']");
+                            rects.style('stroke','black');
+                            rects.each(function(d){
+                                    var x = d3.select(this).node().getBoundingClientRect().x + 5;
+                                    var y = d3.select(this).node().getBoundingClientRect().y - 15;
+                                    var tooltipMatrix = d3.select('#tooltip'+matrixID);
+                                    tooltipMatrix.style('opacity', .9).style('left',x+'px').style('top',y+'px');
+                                    tooltipMatrix.html(d3.select(this).attr('date')+'<br>'+format(d3.select(this).attr('value')));
+                                });
+                            });
+                }else {
+                    rect.attr('id','None_'+j)
+                        .attr('date','null')
+                        .attr('value','null')
+                        .attr('station','none')
+                        .attr('fill','white')
+                        .on('mouseout', function(d) {
+                            toolTip.style('opacity', .0);
+                        })
+                        .on('mouseover', function(d) {
+                            toolTip.style('opacity', .9);
+                            toolTip.html('No info')	
+                            .style('left', (d3.event.pageX+5) + 'px')
+                            .style('top', (d3.event.pageY-15) + 'px');	
+                            })
+                }
+            });
+	});
+	for (j=0;j<31;j++) {
+		container.append('text').text(j+1).attr('x',(j+1)*sizeCells+2).attr('y',12*sizeCells+7).attr('class','smallLabel');
+	}
+	container.append('text').text('Station '+stationList+" - "+yearList).attr('x',0).attr('y',13*sizeCells+10).attr('class','label');
+    }
+
+    function loadLineChart(data, valueToGraph, linechartID) {
+        var sHeight = 200, sWidth = 390;
+        var toolTip = d3.select('body').append('div').attr('class','tooltip').style('opacity', 0);
+       
+        var values = [];
+      
+        for(entry of data){
+            //console.log(entry)
+            var dataValue = {"date":d3.timeParse("%Y-%m-%d")(entry["DATE"]),"value":entry[valueToGraph]};
+            values.push(dataValue);
+        }
+        var linechartDiv = d3.select('#linechartDiv' + linechartID);
+        
+        //If there is already a div, we use it. Otherwise, we create a new one.	
+        if (linechartDiv.empty()) {
+            linechartDiv = d3.select('body').append('div')
+            .attr('id','linechartDiv'+linechartID).attr('class','layout')
+            .style('style','height:'+sHeight+'px;max-width:'+sWidth+'px;')
+        }
+        linechartDiv.selectAll("*").remove();
+       
+        var svg = linechartDiv.append("svg")
+            .attr("width", 315)
+            .attr("height", 150)
+            .append("g")
+            .attr("transform",
+            'translate(' + 0 + ',' + 10 + ')');
+       
+        var x = d3.scaleTime()
+            .domain(d3.extent(values, function(d) { return d.date; }))
+            .range([0,sWidth-100]);
+        svg.append("g")
+            .attr("transform", 'translate(10,'+(sHeight-80)+')')
+            .call(d3.axisBottom(x));
+       
+        var y = d3.scaleLinear()
+            .domain([0, d3.max(values, function(d) { return +d.value; })])
+            .range([sHeight-100,0]);
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        svg.append("path")
+            .datum(values)
+            .attr("fill", "none")
+            .attr("stroke", "steelblue")
+            .attr("stroke-width", 1.5)
+            .attr("d", d3.line()
+            .x(function(d) { return x(d.date) })
+            .y(function(d) { return y(d.value) })
+            )
+
+    }
+</script>
+</body>
+</html>
