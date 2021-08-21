@@ -1,0 +1,977 @@
+POD_ID,APPL_ID,MERIDIAN,LATITUDE,LONGITUDE,SOURCE_NAME,WATERSHED,COUNTY,DIVERSION_SITE_NAME,HUC_12,HU_12_NAME,POD_STATUS,WR_STATUS,FIRST_NAME,LAST_NAME,ENTITY_TYPE
+65750,E000043,Mount Diablo,35.6459,-118.4828,,KERN RIVER,Kern,Isabella Dam,1.80E+11,Black Gulch-Kern River,Active,Certified,,ISABELLA PARTNERS,Corporation
+25788,A003777,San Bernardino,34.7888,-118.9968,UNSP,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+34999,A002030,Mount Diablo,35.4602,-118.7803,KERN RIVER,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,PACIFIC GAS AND ELECTRIC COMPANY,Corporation
+28243,C004833,San Bernardino,35.0784,-118.5116,UNST,GRAPEVINE,Kern,,1.80E+11,Brite Creek,Active,Certified,ROBERT,SCHULTZ,Individual
+29576,A021863,San Bernardino,34.7907,-118.9848,UPPER DARK CANYON SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,LAKE OF THE WOODS MUTUAL WATER CO,Government (State/Municipal)
+11734,A004285,San Bernardino,34.8414,-119.0484,UNSP,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,CHARLES ,BURNHAM ,Individual
+11340,C004832,San Bernardino,35.0789,-118.5126,UNST,GRAPEVINE,Kern,,1.80E+11,Brite Creek,Active,Certified,ROBERT,SCHULTZ,Individual
+40005,C004834,San Bernardino,35.0746,-118.4999,UNST,GRAPEVINE,Kern,,1.80E+11,Brite Creek,Active,Certified,ROBERT,SCHULTZ,Individual
+45863,C004831,San Bernardino,35.0785,-118.5136,UNST,GRAPEVINE,Kern,,1.80E+11,Brite Creek,Active,Certified,ROBERT,SCHULTZ,Individual
+33186,C004061,Mount Diablo,38.4448,-122.1753,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,THOMAS,GOMEZ,Individual
+7230,A026400,Mount Diablo,38.4426,-122.2413,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,CECELIA,SETTY,Individual
+7231,A026409,Mount Diablo,38.6854,-12.2318,DYER CREEK,PUTAH CREEK,Napa,LOWER,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,CHRISTIANSEN FAMILY TRUST,Trust
+7232,A026409,Mount Diablo,38.6868,-122.3171,DYER CREEK,PUTAH CREEK,Napa,UPPER,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,CHRISTIANSEN FAMILY TRUST,Trust
+29617,A021722,Mount Diablo,38.7544,-122.3745,ZIM ZIM CREEK,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,TRACY,COPPIN,Individual
+29680,A022251,Mount Diablo,38.7111,-122.6154,UNCR,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,DAVID,THOMAS,Individual
+9252,A017464,Mount Diablo,38.6881,-122.5977,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,KEVIN ,HARPER ,Individual
+33582,A025366A,Mount Diablo,38.6396,-122.4811,,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,HELEN,GHIRINGHELLI NELSON,Individual
+33583,A025366A,Mount Diablo,38.6408,-122.4805,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,HELEN,GHIRINGHELLI NELSON,Individual
+11647,A003069,Mount Diablo,38.7472,-122.4134,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+11648,A003069,Mount Diablo,3.8749,-122.4111,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+11701,A011236,Mount Diablo,38.6367,-122.3822,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,JULIANA MUTUAL WATER COMPANY,Government (State/Municipal)
+12195,A003069,Mount Diablo,38.7462,-122.5249,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+12196,A003069,Mount Diablo,3.8745,-122.5351,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+35968,A026396,Mount Diablo,38.6908,-122.6188,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,MATTHEW,BARASH,Individual
+36003,A026428,Mount Diablo,38.6101,-122.4158,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,BARRY,KESSEY,Individual
+29162,A013801,Mount Diablo,38.6367,-122.3822,AETNA CREEK,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,AETNA SPRINGS RESORTS LLC,Limited Liability Company
+31939,A021075,Mount Diablo,38.8257,-12.2489,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Licensed,MARY,CASCIO,Individual
+11833,A018501,Mount Diablo,38.5176,-122.1849,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,UNIVERSAL LIFE CHURCH,Individual
+11834,A018504,Mount Diablo,38.4683,-122.1499,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Licensed,DOUGLAS,ERICKSON,Individual
+12341,A010724,Mount Diablo,38.5211,-121.9668,PUTAH CREEK UNDERFLOW,VALLEY PUTAH-CACHE,Yolo,,1.80E+11,Putah Creek-South Fork Putah Creek,Inactive,Licensed,,CITY OF WINTERS,Government (State/Municipal)
+12410,A027028,Mount Diablo,38.6432,-122.4545,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,JAYSON ,KIMBALL ,Individual
+12412,A029513,Mount Diablo,38.7122,-122.2983,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+14701,A020876,Mount Diablo,38.7306,-122.4419,ROUTAN CREEK,PUTAH CREEK,Lake,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+29916,A019964,Mount Diablo,38.7244,-122.3134,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,ANDREW ,PHIPPS,Individual
+9611,A029259,Mount Diablo,38.7072,-122.6061,SWARTZ CREEK,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Inactive,Licensed,,MVP VINEYARDS LLC,Corporation
+34501,A015258,Mount Diablo,38.6477,-122.4897,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,,MVP VINEYARDS LLC,Corporation
+34546,A015323,Mount Diablo,38.6367,-122.3822,POTASSIUM CREEK,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,EL RANCHO PROPERTIES INC,Corporation
+34547,A015323,Mount Diablo,38.6611,-122.4728,POTASSIUM CREEK,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,,EL RANCHO PROPERTIES INC,Corporation
+34591,A015568,Mount Diablo,38.5103,-122.2663,SODA CREEK,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,SAGE CANYON LLC,Corporation
+34600,A018503,Mount Diablo,38.4968,-122.1814,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Licensed,PETER,KILKUS,Individual
+14378,A018497,Mount Diablo,38.4951,-122.1828,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Licensed,,CARLSON FAMILY TRUST,Trust
+15105,A028193,Mount Diablo,38.6565,-122.4843,UNST,PUTAH CREEK,Napa,UNTOUCHED RESERVOIR,1.80E+11,Upper Pope Creek,Active,Licensed,,AETNA SPRINGS RESORTS LLC,Limited Liability Company
+29416,A027004,Mount Diablo,38.6477,-122.4897,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,,MVP VINEYARDS LLC,Corporation
+29430,A020876,Mount Diablo,3.8735,-122.4382,UNST,PUTAH CREEK,Lake,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+7149,A020370,Mount Diablo,38.6443,-122.3853,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,2003 MARINO FAMILY TRUST AND CHRISTOPHER JOSEPH HARNEY AND CHRISTINA MARINO HARNEY REV LIVING TRUST ,Trust
+7211,A023460,Mount Diablo,38.7971,-1.2273,UNSP,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,,ANDERSON SPRINGS COMMUNITY SERVICE DISTRICT,Government (State/Municipal)
+9164,A021776,Mount Diablo,38.4641,-122.1935,UNST,PUTAH CREEK,Napa,#3,1.80E+11,Capell Creek,Active,Licensed,HAROLD,MOSKOWITE,Individual
+9165,A021776,Mount Diablo,3.8462,-122.1972,UNST,PUTAH CREEK,Napa,#2,1.80E+11,Capell Creek,Active,Licensed,HAROLD,MOSKOWITE,Individual
+9720,C003423,Mount Diablo,38.4242,-122.2283,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,TOM,RIDLEY,Individual
+413,A000533,Mount Diablo,38.6667,-122.4459,UNCR,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,SAMUEL,EAKLE,Individual
+10835,C004515,Mount Diablo,38.6596,-1.2247,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,,EL RANCHO MOTEL INC,Corporation
+3220,A025433,Mount Diablo,38.6673,-12.2475,JAMES CREEK,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,ROBERT,OKIN,Individual
+3248,A015421,Mount Diablo,38.4569,-122.1931,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,HAROLD,MOSKOWITE,Individual
+10375,A021157B,Mount Diablo,38.8152,-122.4415,JOHN THOMAS CREEK,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Licensed,CECIL,BROWN,Individual
+12721,A022292,Mount Diablo,38.7201,-122.6232,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,Dennis,Alumbaugh,Individual
+3312,A021242,Mount Diablo,38.6965,-122.4165,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,Judith,Whitney,Individual
+960,A024673,Mount Diablo,3.8664,-122.4662,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Inactive,Licensed,SCOTT,BROWN,Individual
+3414,A016923,Mount Diablo,38.8086,-122.7107,CALLAYOMI BROOK,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,CHARLES,LAMP,Individual
+12878,A020145,Mount Diablo,38.8086,-122.7107,UNSP,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,STEFAN,GIUSTINO,Individual
+4982,C004569,Mount Diablo,38.6589,-12.2469,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,,EL RANCHO MOTEL INC,Corporation
+3747,A029148,Mount Diablo,38.5025,-122.2643,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,EDWARD,KUHN,Individual
+3748,A029148,Mount Diablo,38.5031,-122.2649,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,EDWARD,KUHN,Individual
+3805,A029513,Mount Diablo,3.8721,-122.3006,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+1277,A019885,Mount Diablo,38.8049,-122.3969,HUNTING CREEK,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Licensed,,WW ACQUISITIONS,Corporation
+8664,A023460,Mount Diablo,38.7646,-12.2685,UNSP,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Inactive,Licensed,,ANDERSON SPRINGS COMMUNITY SERVICE DISTRICT,Government (State/Municipal)
+1319,A020061,Mount Diablo,38.6499,-122.4265,UNST,PUTAH CREEK,Napa,#2,1.80E+11,Lower Pope Creek,Active,Licensed,,JULIANA MUTUAL WATER COMPANY,Government (State/Municipal)
+1320,A020061,Mount Diablo,38.6486,-122.4085,UNST,PUTAH CREEK,Napa,#4,1.80E+11,Lower Pope Creek,Active,Licensed,,JULIANA MUTUAL WATER COMPANY,Government (State/Municipal)
+1326,A020152,Mount Diablo,38.4277,-122.2451,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,GARRETT,BROWN,Individual
+1327,A020152,Mount Diablo,38.4299,-122.2444,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,GARRETT,BROWN,Individual
+33,A017980,Mount Diablo,38.4629,-122.1997,Unnamed Stream,PUTAH CREEK,Napa,KCWA (Lost Hills 6),1.80E+11,Capell Creek,Active,Licensed,HAROLD,MOSKOWITE,Individual
+1389,A023348,Mount Diablo,38.8086,-122.7107,UNST (AKA NORTH FORK CALLAYOMI BROOK),PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,DAVID,WALDEN,Individual
+10690,A024296B,Mount Diablo,38.7526,-122.4184,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+4207,A027551,Mount Diablo,3.8658,-122.2256,UNST,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Inactive,Licensed,ERICA,SMITHIES,Individual
+206,A019074,Mount Diablo,38.6651,-122.4834,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,Mark,Gaffney,Individual
+207,A019074,Mount Diablo,38.6678,-122.4813,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Licensed,Mark,Gaffney,Individual
+293,A016257,Mount Diablo,3.8606,-122.4305,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,DOUGLAS,HAMILTON,Individual
+1566,C001439,Mount Diablo,38.5834,-122.3607,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,ALAN HARDIN TRUST,Corporation
+5947,A015618,Mount Diablo,38.4327,-122.0534,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Licensed,EDWARD,GRIFFIN,Individual
+5956,A018493,Mount Diablo,3.8454,-122.1694,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Licensed,,THE LAND TRUST OF NAPA COUNTY,Trust
+6550,A003797,Mount Diablo,38.7758,-12.2523,PUTAH CREEK,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Licensed,PETER,LUCHETTI,Individual
+8884,A020042,Mount Diablo,3.8674,-122.5808,UNST,PUTAH CREEK,Napa,,1.80E+11,Saint Helena Creek,Active,Licensed,,"MONTESOL, LLC",Limited Liability Company
+23011,A015568,Mount Diablo,38.5156,-122.2615,UNSP,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,SAGE CANYON LLC,Corporation
+23020,A015665,Mount Diablo,38.4403,-122.0587,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Licensed,BARBARA,COMFORT,Individual
+24211,A026278,Mount Diablo,3.8831,-122.5298,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Licensed,GERARD,PARDUCCI,Individual
+16987,C005366,Mount Diablo,38.8238,-122.4379,UNST,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Certified,,"PARADISE VALLEY RANCH COMPANY, LLC",Corporation
+15285,A029224,Mount Diablo,38.8248,-122.4281,UNST,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Licensed,JASON,JONES,Individual
+15286,A029224,Mount Diablo,38.8239,-122.4281,UNST,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Licensed,JASON,JONES,Individual
+20174,A013730,Mount Diablo,38.6183,-122.4442,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,THOMAS,CLARK,Individual
+22453,C005146,San Bernardino,38.6132,-122.4638,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,AUERBACH SANTA YSABEL RANCH LIMITED PARTNERSHIP,Limited Partner
+3032,A019374,Mount Diablo,38.6438,-122.4718,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,GALLO VINEYARDS INC ,Corporation
+3033,A019374,Mount Diablo,38.6429,-122.4751,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,GALLO VINEYARDS INC ,Corporation
+3036,A024339,Mount Diablo,38.7502,-122.3563,UNST,PUTAH CREEK,Napa,ROPE SWING,1.80E+11,Lower Eticuera Creek,Active,Licensed,,MYSTERIOUS VALLEY RANCH LLC,Limited Liability Company
+3037,A024339,Mount Diablo,38.7435,-122.3535,UNST,PUTAH CREEK,Napa,JAY,1.80E+11,Lower Eticuera Creek,Active,Licensed,,MYSTERIOUS VALLEY RANCH LLC,Limited Liability Company
+21978,A024296B,Mount Diablo,38.7497,-122.4122,PUTAH CREEK,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+21979,A024296B,Mount Diablo,38.7463,-12.2414,PUTAH CREEK,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+20314,A015321,Mount Diablo,3.8461,-122.2078,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,CLINTON,PRIDMORE,Individual
+22576,C004094,Mount Diablo,38.6652,-122.4546,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,NORBERT,DICKMAN,Individual
+15479,A026354,Mount Diablo,38.4352,-122.2029,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,EDWIN,NUNNALLY,Individual
+15528,A026656,Mount Diablo,38.6611,-122.4728,UNST (AKA POTASSIUM CREEK),PUTAH CREEK,Napa,WESTERLY RESERV,1.80E+11,Upper Pope Creek,Active,Licensed,,EL RANCHO PROPERTIES INC,Corporation
+15529,A026656,Mount Diablo,38.6367,-122.3822,UNST (AKA POTASSIUM CREEK),PUTAH CREEK,Napa,EASTERLY RESER,1.80E+11,Lower Pope Creek,Active,Licensed,,EL RANCHO PROPERTIES INC,Corporation
+3077,A013834,Mount Diablo,38.6668,-122.5895,TROUTDALE CREEK,PUTAH CREEK,Napa,,1.80E+11,Saint Helena Creek,Active,Licensed,,"MONTESOL, LLC",Limited Liability Company
+17247,A014974,Mount Diablo,38.6183,-122.4442,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,THOMAS,CLARK,Individual
+16816,C004060,Mount Diablo,38.4428,-122.1866,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,THOMAS,GOMEZ,Individual
+21683,C004059,Mount Diablo,38.4472,-12.2183,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,THOMAS,GOMEZ,Individual
+946,A021482,Humboldt,40.9569,-123.6234,UNSP (2),TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,,WILLOW CREEK GOLF & COUNTRY CLUB,Corporation
+12746,A025409,Mount Diablo,40.9855,-122.7116,SWIFT CREEK,TRINITY RIVER,Trinity,,1.80E+11,Swift Creek,Active,Licensed,Fred,Duchi,Individual
+11026,A002705A,Humboldt,40.9085,-123.6216,UNSP,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,,WILLOW CREEK CHRISTIAN SCHOOL INC,Corporation
+12810,A028580,Mount Diablo,40.7688,-12.2918,UNSP,TRINITY RIVER,Trinity,,1.80E+11,Weaver Creek,Active,Licensed,DAVID,BEANS,Individual
+3693,A028907,Mount Diablo,40.6715,-122.9668,TRINITY RIVER,TRINITY RIVER,Trinity,,1.80E+11,Dutton Creek-Trinity River,Active,Licensed,NOELLE,ROGET,Individual
+1282,A022840,Mount Diablo,4.0669,-122.9192,TRINITY RIVER,TRINITY RIVER,Trinity,,1.80E+11,Dutton Creek-Trinity River,Active,Licensed,STEPHEN,DUTTON,Individual
+8671,A023614,Mount Diablo,40.8575,-123.0499,UNST,TRINITY RIVER,Trinity,,1.80E+11,Upper Canyon Creek,Active,Licensed,G,Benton,Individual
+13001,A023557,Mount Diablo,40.5621,-122.9281,BROWNS CREEK,TRINITY RIVER,Trinity,,1.80E+11,Lower Browns Creek,Active,Licensed,STEVEN,BARNWELL,Individual
+5172,A002705C,Humboldt,40.9125,-123.6217,UNST,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,THOMAS,PETERSON,Individual
+6336,A017071,Humboldt,40.8971,-123.5623,DEER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,,ORGANIC LIBERTY LLC,Limited Liability Company
+5802,A010860,Humboldt,40.8905,-123.5747,UNSP,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,WILLIAM,OAKES,Individual
+54,A011181,Mount Diablo,40.7728,-12.3088,UNST,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,MARK,PERKO,Individual
+55,A011181,Mount Diablo,40.7731,-123.0916,UNST,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,MARK,PERKO,Individual
+113,A015472,Mount Diablo,40.7639,-122.9181,EAST WEAVER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Weaver Creek,Active,Licensed,DANIEL,POWERS,Individual
+4290,A027969,Mount Diablo,40.6696,-122.9659,TRINITY RIVER,TRINITY RIVER,Trinity,,1.80E+11,Dutton Creek-Trinity River,Active,Licensed,CHRISTOPHER,CROSS,Individual
+13101,A023862,Mount Diablo,40.7442,-123.2777,DEER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Little French Creek-Trinity River,Active,Licensed,SAMUEL,CAMP,Individual
+269,A018768,Mount Diablo,40.7426,-123.2144,UNXX,TRINITY RIVER,Trinity,,1.80E+11,Big Bar Creek-Trinity River,Active,Licensed,John,Dingman,Individual
+277,A006580,Humboldt,0.4085,-123.4591,DIXIE CREEK,TRINITY RIVER,Trinity,,1.80E+11,Bell Creek-New River,Active,Licensed,AUDREY,GOODWIN,Individual
+5897,A011597,Mount Diablo,40.8374,-123.0523,FISHER GULCH CREEK,TRINITY RIVER,Trinity,,1.80E+11,Lower Canyon Creek,Active,Licensed,Wendy ,Drake,Trust
+5924,A018357,Humboldt,40.8026,-123.4945,UNST,TRINITY RIVER,Trinity,,1.80E+11,McDonald Creek-Trinity River,Active,Licensed,,BLUE PLANET LLC,Limited Liability Company
+5978,A011984,Mount Diablo,41.2746,-122.6924,NORTH EAST BRANCH SCOTT MOUNTAIN CREEK,TRINITY RIVER,Trinity,,1.80E+11,Tangle Blue Creek,Active,Licensed,BRIAN,SMITH,Individual
+6580,A024059,Humboldt,40.9138,-123.6139,TRINITY RIVER UNDERFLOW,TRINITY RIVER,Trinity,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,,M & N BETTENDORF TRUST 2011,Trust
+8888,A024625,Humboldt,40.8132,-123.4989,MCDONALD CREEK,TRINITY RIVER,Trinity,,1.80E+11,McDonald Creek-Trinity River,Active,Licensed,,BURNT RANCH ESTATES MUTUAL WATER COMPANY,Organization/Association
+22993,A011670,Mount Diablo,40.7326,-123.2577,CEMETERY CREEK,TRINITY RIVER,Trinity,,1.80E+11,Little French Creek-Trinity River,Active,Licensed,CRAIG,THOMPSON,Individual
+17537,A018912,Mount Diablo,41.0811,-12.2945,PACKERS CREEK,TRINITY RIVER,Trinity,,1.80E+11,Upper Coffee Creek,Active,Licensed,MARK,LANCASTER,Individual
+17590,A016657,Humboldt,40.9512,-123.6315,DUSKY SPRING,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,DONALD,YOUNG,Individual
+23729,A027639,Mount Diablo,40.6696,-122.9659,TRINITY RIVER,TRINITY RIVER,Trinity,,1.80E+11,Dutton Creek-Trinity River,Active,Licensed,Thomas,Tauchus,Individual
+15436,A026013,Mount Diablo,4.1101,-122.7172,ALDER GULCH,TRINITY RIVER,Trinity,,1.80E+11,Eagle Creek-Trinity River,Active,Licensed,NORMA,JOHNSON,Individual
+17705,A001226,Humboldt,40.9477,-123.6054,BRAEMER CREEK,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,BRUCE,MCINTOSH,Individual
+727,A014737,Mount Diablo,41.0841,-122.7428,COFFEE CREEK,TRINITY RIVER,Trinity,,1.80E+11,Lower Coffee Creek,Active,Licensed,Douglas,Weaver,Individual
+2909,A023709B,Humboldt,40.8851,-12.3563,UNST,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,ELIZABETH,PAPER,Individual
+20311,A015188,Humboldt,40.8004,-123.4728,UNSP,TRINITY RIVER,Trinity,,1.80E+11,McDonald Creek-Trinity River,Active,Licensed,,SWF PLYWOOD CO,Corporation
+778,A026786,Mount Diablo,40.6876,-122.9404,UNST,TRINITY RIVER,Trinity,,1.80E+11,Weaver Creek,Active,Licensed,PATRICK ,O'CONNELL,Individual
+3193,A005262,Mount Diablo,40.6867,-122.8531,BARN GULCH,TRINITY RIVER,Trinity,,1.80E+11,Deadwood Creek-Trinity River,Active,Licensed,,CALIF DEPT OF WATER RESOURCES,Government (State/Municipal)
+16695,A010704A,Mount Diablo,4.0781,-123.3272,PELLETREAU CREEK,TRINITY RIVER,Trinity,,1.80E+11,Don Juan Creek-Trinity River,Active,Licensed,PATRICK,MCCALMONT,Individual
+17330,A015320,Humboldt,40.8782,-123.5259,UNSP,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,LEZLEE,HEFT,Individual
+20451,A016528A,Humboldt,40.8845,-123.5669,HOUSE CREEK,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,LOREN,JAQUES,Individual
+23968,A025473,Mount Diablo,40.6858,-123.0331,BELL GULCH,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,THEODORE,TILLINGHAST,Individual
+18021,A020938,Mount Diablo,40.5678,-122.9255,UNSP,TRINITY RIVER,Trinity,,1.80E+11,Lower Browns Creek,Active,Licensed,,RICHARD C AND SONDRA L STREBEL 2004 TRUST,Trust
+20523,A009254,Humboldt,40.9052,-123.6184,SCHOOL HOUSE CREEK,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,MARGARET,WOODEN,Individual
+20576,A017372,Humboldt,40.9996,-123.6244,UNSP,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,WILLIAM,BRIGGS,Individual
+22912,A011132,Mount Diablo,41.1054,-122.8775,UNSP,TRINITY RIVER,Trinity,,1.80E+11,Upper Coffee Creek,Active,Licensed,THEODORE,LYDON JR,Individual
+22937,A018177,Mount Diablo,40.6974,-122.8106,ALDER GULCH,TRINITY RIVER,Trinity,,1.80E+11,Deadwood Creek-Trinity River,Active,Licensed,,LEWISTON COMMUNITY SERVICE DISTRICT,Government (State/Municipal)
+23470,A014615,Humboldt,40.8244,-123.4835,UNST,TRINITY RIVER,Trinity,,1.80E+11,McDonald Creek-Trinity River,Active,Licensed,DAVID ,IVES,Individual
+39834,A010704B,Mount Diablo,4.0781,-123.3272,PELLETREAU CREEK,TRINITY RIVER,Trinity,,1.80E+11,Don Juan Creek-Trinity River,Active,Licensed,THOMAS,DOWNS,Individual
+40683,A016528B,Humboldt,40.8845,-123.5669,HOUSE CREEK,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,JAMES,HAY,Individual
+40775,A013324,Mount Diablo,41.0836,-122.7504,LITTLE BOULDER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Lower Coffee Creek,Active,Licensed,DAVID,DOSHAY,Trust
+20698,A023186,Humboldt,40.8764,-123.4951,COW CREEK,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,JASON,HENDERSON,Individual
+40860,A009108,Mount Diablo,41.0169,-123.6442,UNCR,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,,U S DEPT OF INTERIOR IN TRUST TO HUPA VALLEY TRIBE,Federal Government
+43701,A009632,Mount Diablo,4.0744,-123.0971,SOLDIER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,,FRANK L CHAPMAN LIVING TRUST,Trust
+43710,A017094,Mount Diablo,40.7387,-123.0775,SPRUCE GULCH CREEK,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,,MADISON AVENUE TRUST,Trust
+39488,C004244,Mount Diablo,40.9595,-123.1168,UNST,TRINITY RIVER,Trinity,,1.80E+11,Middle North Fork Trinity River,Active,Certified,,O'FARRELL AND BORGWARDT FAMILY TRUST ,Trust
+40350,A004880,Humboldt,40.9052,-123.6184,SCHOOL HOUSE CREEK,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,MARGARET,WOODEN,Individual
+40353,A005018,Humboldt,40.9124,-123.4315,PANTHER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Bell Creek-New River,Active,Licensed,GARY,TAYLOR,Individual
+40374,A015227,Humboldt,40.9452,-123.6274,TRINITY RIVER,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,RUSSELL,HAGEN JR,Individual
+40410,A011444,Humboldt,40.9334,-123.6075,UNSP,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,JEFFREY,POWERS,Individual
+40429,A015460,Mount Diablo,40.7495,-123.0129,SLATTERY GULCH,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,DAVID,RODGERS,Individual
+40445,A005303,Mount Diablo,40.8834,-122.8258,BIG MULE CREEK,TRINITY RIVER,Trinity,,1.80E+11,Lower Stuart Fork,Active,Licensed,ROBERT,WATERMAN JR,Individual
+40451,A011657,Mount Diablo,40.6316,-122.7362,NORTH FORK LITTLE GRASS VALLEY CREEK,TRINITY RIVER,Trinity,,1.80E+11,Grass Valley Creek,Active,Licensed,GREGORY,LOWDEN,Individual
+40452,A011657,Mount Diablo,40.6314,-122.7301,NORTH FORK LITTLE GRASS VALLEY CREEK,TRINITY RIVER,Trinity,,1.80E+11,Grass Valley Creek,Active,Licensed,GREGORY,LOWDEN,Individual
+40508,A012031,Humboldt,40.8897,-123.6072,MARTINS SPRING,TRINITY RIVER,Humboldt,,1.80E+11,Campbell Creek-Trinity River,Active,Licensed,DANNY,AMMON,Individual
+38689,A027299,Humboldt,40.7802,-12.3459,BIDDEN CREEK,TRINITY RIVER,Trinity,,1.80E+11,McDonald Creek-Trinity River,Active,Licensed,JEREMY,BROWN,Individual
+43305,A024558,Mount Diablo,4.0714,-122.9357,WEAVER CREEK,TRINITY RIVER,Trinity,,1.80E+11,Weaver Creek,Active,Licensed,,VIC & MAXINE ROSE MARITAL TRUST,Trust
+41361,A021831,Mount Diablo,40.9919,-122.7137,RANCHERIA CREEK,TRINITY RIVER,Trinity,,1.80E+11,Swift Creek,Active,Licensed,JOSEF,PRINZ,Individual
+65672,NJ000215,Mount Diablo,37.4665,-119.9498,,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Active,JAMES,SUGGS,Individual
+34700,A018771,Mount Diablo,37.4593,-119.7965,WEST FORK OLIVER CREEK,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,,"MICHELLE A. PEDRETTI, TRUSTEE",Individual
+26248,A017462,Mount Diablo,37.4593,-119.7965,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,JACK,WINTERS,Individual
+26249,A017473,Mount Diablo,37.4126,-119.9274,STRIPED ROCK CREEK,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Licensed,,SILVER VALLEY RANCH LLC,Individual
+34735,A016317,Mount Diablo,37.0216,-119.5709,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,,FORD RANCH INC,Government (State/Municipal)
+34736,A016329,Mount Diablo,37.2708,-120.7972,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#9,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34737,A016329,Mount Diablo,37.2949,-120.7974,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#7,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34738,A016329,Mount Diablo,37.3032,-120.7795,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#3,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34739,A016329,Mount Diablo,37.2878,-120.7973,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#8,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34740,A016329,Mount Diablo,37.3026,-120.7974,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#6,1.80E+11,Shag Slough-San Joaquin River,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34741,A016329,Mount Diablo,37.3032,-120.7909,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#5,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34742,A016329,Mount Diablo,37.3021,-120.7854,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#4,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34743,A016329,Mount Diablo,37.3096,-120.7603,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#2,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+34744,A016329,Mount Diablo,37.3165,-120.7555,LIVINGSTON DRAIN,SAN JOAQUIN VALLEY FLOOR,Merced,#1,1.80E+11,Deep Slough-Bear Creek,Active,Licensed,,"GALLO CATTLE COMPANY, A PARTNERSHIP",Government (State/Municipal)
+28753,A011687,Mount Diablo,37.1727,-120.8133,SALT SLOUGH,DELTA-MENDOTA CANAL,Merced,SAN LUIS NWR,1.80E+11,Deadmans Slough-Salt Slough,Active,Licensed,,U S FISH & WILDLIFE SERVICE,Corporation
+34866,A013175,Mount Diablo,37.1653,-120.1098,CHOWCHILLA RIVER,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Licensed,,CHOWCHILLA WATER DISTRICT,Government (State/Municipal)
+28864,A015980,Mount Diablo,37.1354,-120.8897,LOS BANOS CREEK,DELTA-MENDOTA CANAL,Merced,,1.80E+11,180400011902-Los Banos Creek,Active,Licensed,HERMAN,MENEZES,Individual
+28879,A018656,Mount Diablo,37.4967,-119.8481,OWL CREEK,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,STEVE,ALLISON,Individual
+27864,C005542,Mount Diablo,37.4421,-120.4151,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,W P RODUNER CATTLE AND FARMING COMPANY,Corporation
+28941,A007012,Mount Diablo,37.2545,-120.7192,BEAR CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,City of Winton-Bear Creek,Active,Licensed,,STEVINSON WATER DISTRICT,Corporation
+25667,A018774,Mount Diablo,37.2511,-120.4151,DUCK SLOUGH,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Mariposa Creek-Duck Slough,Active,Licensed,,MERCED IRRIGATION DISTRICT,Government (State/Municipal)
+34916,A016878,Mount Diablo,36.9501,-121.2114,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Licensed,,CATHEDAL PEAK LLC,Individual
+29083,A016909,Mount Diablo,37.2494,-12.0949,LOS BANOS CREEK,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Mustang Creek-Los Banos Creek,Active,Licensed,,GRASSLAND WATER DISTRICT,Government (State/Municipal)
+29084,A016909,Mount Diablo,37.2324,-120.9421,LOS BANOS CREEK,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Mustang Creek-Los Banos Creek,Active,Licensed,,GRASSLAND WATER DISTRICT,Government (State/Municipal)
+25756,A019242,Mount Diablo,37.4144,-120.1026,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Licensed,MICHAEL,MAYES,Individual
+38024,A011155,Mount Diablo,37.4911,-119.8199,MAGOON CREEK,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,RONALD,ADAMEE,Individual
+28318,A030642,Mount Diablo,3.7466,-1.2011,UNST,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,WAYNE,KELLY,Individual
+37441,A013407,Mount Diablo,37.4887,-119.8306,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,,THE DENISE ALISON FEDORCHUK TRUST,Trust
+37494,A019746,Mount Diablo,37.0324,-119.5061,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,,"KNEELAND FAMILY TRUST, 1990",Trust
+37503,A025271,Mount Diablo,37.4907,-119.8971,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,STEVEN,ALLISON,Individual
+35763,A025551,Mount Diablo,37.4658,-119.8212,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,Christopher ,Obers ,Individual
+28377,C005562,Mount Diablo,37.4671,-1.2006,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,ROBERT,BENSON,Individual
+12130,A017143,Mount Diablo,37.3437,-119.8863,UNST,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Licensed,,FOSTER FARMS,Corporation
+14407,A013071,Mount Diablo,37.2068,-120.6404,DUCK SLOUGH,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Mariposa Creek-Duck Slough,Active,Licensed,,GRISSOM FAMILY LAND & CATTLE LP,Limited Partner
+35896,A020364B,Mount Diablo,37.4535,-120.4266,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JEFF,CHANCE,Individual
+37902,A016998,Mount Diablo,37.2873,-119.9686,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,JERRY,DOWELL,Individual
+37903,A016998,Mount Diablo,37.2996,-119.9633,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,JERRY,DOWELL,Individual
+37905,A017138,Mount Diablo,37.4734,-119.9056,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,PERRY,GOLDEN,Individual
+37906,A017138,Mount Diablo,37.4712,-119.9049,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,PERRY,GOLDEN,Individual
+33607,C004634,Mount Diablo,37.0483,-119.6882,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,CLAYTON,VANDER DUSSEN,Individual
+31876,A005724,Mount Diablo,37.2545,-120.7192,BEAR CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,City of Winton-Bear Creek,Active,Licensed,,STEVINSON WATER DISTRICT,Corporation
+34199,C005567,Mount Diablo,37.4414,-12.0049,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,ROBERT,BENSON,Individual
+9936,A026962,Mount Diablo,37.2596,-119.8241,UNSP,AHWAHNEE,Madera,,1.80E+11,Willow Creek-Chowchilla River,Active,Licensed,,"ETPH, LP",Corporation
+12177,A017296,Mount Diablo,37.5002,-119.8812,UNCR,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,JERRY,PAISLEY,Individual
+35973,A029157,Mount Diablo,37.5101,-119.8011,UNSP,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,KATHIE,BARTHOLOMEW,Individual
+6752,A024738,Mount Diablo,37.5109,-119.8266,MAGOON CREEK,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,,CHURCH OF PIONEERS FOUNDATION,Corporation
+29119,A016998,Mount Diablo,37.3001,-119.9482,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,JERRY,DOWELL,Individual
+29727,A025272,Mount Diablo,37.4885,-119.9006,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,STEVEN,ALLISON,Individual
+6787,A021969,Mount Diablo,37.4872,-119.9116,UNST (2),AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,,ESTATE OF HANS J ULLMANN,Individual
+11441,C005568,Mount Diablo,37.4382,-120.0146,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,ROBERT,BENSON,Individual
+10957,C005637,Mount Diablo,37.0364,-120.7778,UNST,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Upper Ruth Lake-Mud Slough,Active,Certified,,REDFERN RANCHES INC,Corporation
+5629,C005569,Mount Diablo,37.4364,-120.0586,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,ROBERT,BENSON,Individual
+5532,C002296,Mount Diablo,37.5422,-120.2403,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Burns Creek,Active,Certified,WILLA MAY,KNOX,Individual
+10787,C004051,Mount Diablo,37.2665,-119.8257,UNST,AHWAHNEE,Madera,,1.80E+11,Willow Creek-Chowchilla River,Active,Certified,JERRY,STEWART,Individual
+16457,C005543,Mount Diablo,37.4251,-120.3926,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,W P RODUNER CATTLE AND FARMING COMPANY,Corporation
+16990,C005563,Mount Diablo,37.4669,-120.0564,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,ROBERT,BENSON,Individual
+17120,C005118,Mount Diablo,37.0678,-119.7432,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,NEIL,MCDOUGALD,Individual
+18678,C001503,Mount Diablo,37.3558,-119.8597,UNNAMED STREAM,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,H,LEE,Individual
+45990,C005570,Mount Diablo,37.4407,-1.2007,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,ROBERT,BENSON,Individual
+40787,A013426,Mount Diablo,3.7507,-11.9762,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,NANCY,HUBERT,Individual
+45330,C004607,Mount Diablo,37.0164,-11.9796,UNST,AHWAHNEE,Madera,,1.80E+11,Little Dry Creek,Active,Certified,KATHERN,VANDER DUSSEN SAVINO,Individual
+15957,A025398,Mount Diablo,37.4844,-119.8491,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,DUSTIN,ROWE,Individual
+40082,C005535,Mount Diablo,37.0034,-119.9102,HILDRETH CREEK,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Hildreth Creek,Active,Certified,JEANNE ,TODISCO,Individual
+40091,C004154,Mount Diablo,37.2732,-120.0998,UNST,MARIPOSA,Mariposa,,1.80E+11,Flat Top Mountain-Deadman Creek,Active,Certified,MILENDA,MEDERS,Individual
+40927,A017463,Mount Diablo,37.0958,-120.8957,MACHADO DRAIN,DELTA-MENDOTA CANAL,Merced,,1.80E+11,180400011902-Los Banos Creek,Active,Licensed,JOHN,ROSELLI JR,Individual
+43665,A021697,Mount Diablo,37.3318,-119.9848,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,Roy ,Bissett,Individual
+43709,A017058,Mount Diablo,37.3567,-119.8982,UNST,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Licensed,JOSEPH,SURPRENANT,Individual
+18376,A025595,Mount Diablo,37.4637,-120.1315,UNST,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,HECTOR,CORNELIO,Individual
+18390,A028622,Mount Diablo,37.1856,-120.3107,DUTCHMAN CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Lower Dutchman Creek,Active,Licensed,ANITA,SERRANO,Individual
+23266,A016991,Mount Diablo,37.4821,-119.9861,BUCKEYE CREEK,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Licensed,JERRY,GRIFFITH,Individual
+41127,A027048,Mount Diablo,37.3207,-119.9476,UNST,AHWAHNEE,Mariposa,Gwen,1.80E+11,Chapman Creek,Active,Licensed,ADELE,HANSEN,Individual
+18489,A023231,Mount Diablo,36.8648,-12.0193,COTTONWOOD CREEK,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Lower Cottonwood Creek,Active,Licensed,,COTTONWOOD CREEK VINEYARDS PARTNERSHIP,Individual
+18490,A023231,Mount Diablo,36.8698,-120.1739,COTTONWOOD CREEK,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Lower Cottonwood Creek,Active,Licensed,,COTTONWOOD CREEK VINEYARDS PARTNERSHIP,Individual
+40322,A017902,Mount Diablo,3.7505,-119.8953,UNXX,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,JEFFREY,BALADAD,Individual
+38589,A026875,Mount Diablo,37.0569,-120.5504,SAN JOAQUIN RIVER,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Lone Willow Slough-San Joaquin River,Active,Licensed,,MENEFEE RIVER RANCH COMPANY,Government (State/Municipal)
+43139,A018432,Mount Diablo,37.3857,-11.9835,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,RONALD,KILPATRICK,Individual
+27333,A022159,Mount Diablo,3.5291,-118.4533,STUDHORSE CANYON SPRING,GRAPEVINE,Kern,,1.80E+11,Middle Caliente Creek,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+37597,A020189,Mount Diablo,35.5797,-118.6385,BEAR TUB SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+37598,A020208,Mount Diablo,35.5562,-118.6689,LITTLE TENANT SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+30003,A020160,Mount Diablo,35.5628,-118.5546,MIDDLE HOBO RIDGE SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+30004,A020190,Mount Diablo,35.5718,-11.8624,NOISY SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+30005,A020199,Mount Diablo,35.5209,-118.7012,BANK SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+30006,A020212,Mount Diablo,35.5407,-118.6835,FENCE CORNER SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+30097,A020709,San Bernardino,34.7805,-11.8966,HOVDEN SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+37713,A005832,Mount Diablo,35.4708,-118.6611,UNSP,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+28710,A011542,San Bernardino,34.8337,-119.0813,UNSP,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,David,Walsh,Individual
+38023,A011076,Mount Diablo,35.4604,-118.6053,EAST FORK LUCAS CREEK,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,BRECKENRIDGE LAND MANAGEMENT & CONSERVATION ASSOCIATION,Organization/Association
+25904,A020193,Mount Diablo,3.5488,-118.7379,LOWER BILL SPRINGS,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+35940,A020158,Mount Diablo,35.5448,-118.6355,ARRASTRA SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+35941,A020168,Mount Diablo,35.5262,-118.6888,DEAD EAGLE SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+35943,A020192,Mount Diablo,35.4945,-118.7426,UPPER BILL SPRING #2,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+37891,A009480,San Bernardino,34.7844,-118.9961,UNSP,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+31786,A020225,Mount Diablo,35.5457,-118.6806,PREFIDIO SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+11717,A018126,San Bernardino,34.7947,-119.0165,TIFFT SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+14600,A020196,Mount Diablo,35.5169,-118.6716,OSCAR MEYER SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+14601,A020201,Mount Diablo,35.5067,-118.6789,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+14658,A020559,San Bernardino,34.8239,-119.0688,UNSP,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,GIRL SCOUTS OF GREATER LOS ANGELES,Corporation
+14659,A020559,San Bernardino,34.8214,-119.0725,UNSP,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,GIRL SCOUTS OF GREATER LOS ANGELES,Corporation
+36037,A020706,San Bernardino,3.4784,-118.9774,OBERMEYER SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+14775,A016197,San Bernardino,34.7823,-118.9844,SHEEP CAMP SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,LAKE OF THE WOODS MUTUAL WATER CO,Government (State/Municipal)
+11904,A012337,Mount Diablo,35.5214,-118.4099,SADDLE SPRING,KERN RIVER,Kern,,1.80E+11,Bodfish Creek,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+7198,A020157,Mount Diablo,3.5583,-118.6358,HOG CORRAL SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+7199,A020176,Mount Diablo,35.4668,-118.6991,DOUGHERTY CREEK,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+7200,A020205,Mount Diablo,35.5486,-1.1865,LONE WILLOW SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+7201,A020226,Mount Diablo,35.5508,-11.8644,GLASS SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+7202,A020230,Mount Diablo,3.5497,-118.6506,UPPER PIG PEN SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+9091,A021117,San Bernardino,34.8302,-119.0076,SCOTT RUSSELL SPRING,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+10372,A020216,Mount Diablo,35.4975,-118.7427,UPPER BILL SPRING #1,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+12676,A022254,Mount Diablo,35.6297,-118.5177,KEYSVILLE MINE TUNNEL,KERN RIVER,Kern,,1.80E+11,Black Gulch-Kern River,Active,Licensed,William,Mangan,Individual
+12976,A020172,Mount Diablo,35.5745,-118.6314,LONESOME SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+12977,A020206,Mount Diablo,35.5861,-118.5047,BODFISH SPRING,KERN RIVER,Kern,,1.80E+11,Black Gulch-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+12979,A020228,Mount Diablo,35.4995,-118.6308,SHEEP TROUGH SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+6303,A008573,San Bernardino,34.7814,-118.9977,UNSP,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+6310,A008910,Mount Diablo,35.5146,-118.5192,HAVILAH CANYON,KERN RIVER,Kern,,1.80E+11,Havilah Canyon,Active,Licensed,Tamara,Barkley,Individual
+1408,A020163,Mount Diablo,35.4888,-118.7305,LOWER SYCAMORE SPRING,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1409,A020164,Mount Diablo,35.4948,-118.6909,BLANE SPRING #1,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1410,A020169,Mount Diablo,35.5575,-118.6242,SYCAMORE CREEK,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1411,A020194,Mount Diablo,35.5658,-118.5567,LOWER HOSO RIDGE SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1412,A020200,Mount Diablo,35.5016,-118.7108,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1413,A020202,Mount Diablo,35.5183,-118.6612,TRAIL SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1414,A020209,Mount Diablo,35.4954,-118.7275,UPPER SYCAMORE SPRING,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1415,A020241,Mount Diablo,35.5157,-118.7001,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1503,A020704,San Bernardino,34.7877,-118.9911,SWITCHBACK SPRING,GRAPEVINE,Ventura,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+96,A004481,San Bernardino,34.8098,-118.9521,UNXX (2),GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,FRAZIER PARK PUBLIC UTILITY DISTRICT,Government (State/Municipal)
+184,A011915,San Bernardino,34.8222,-119.0165,COLD SPRING,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+8928,A020203,Mount Diablo,35.5195,-118.6572,BLUFF SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+8929,A020210,Mount Diablo,35.5076,-118.7142,UPPER SATURDAY SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+8930,A020229,Mount Diablo,35.4958,-118.6701,WILD COW RUN SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+1657,E000018,Mount Diablo,35.4289,-118.8256,KERN RIVER,SOUTH VALLEY FLOOR,Kern,,1.80E+11,Stark Creek-Kern River,Active,Certified,,Olcese Water District,Corporation
+605,A009400,San Bernardino,34.8393,-11.9103,UNSP,GRAPEVINE,Kern,,1.80E+11,San Emigdio Creek,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+715,A010335,San Bernardino,3.4847,-119.0931,UPPER SAN EMIGDIO SPRINGS,GRAPEVINE,Kern,,1.80E+11,San Emigdio Creek,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+716,A010335,San Bernardino,34.8449,-119.0864,UPPER SAN EMIGDIO SPRINGS,GRAPEVINE,Kern,,1.80E+11,San Emigdio Creek,Active,Licensed,,USDA LOS PADRES NATIONAL FOREST,Federal Government
+20274,A020167,Mount Diablo,35.5624,-118.6434,WILLOW #1 SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+20275,A020214,Mount Diablo,35.5063,-118.6947,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+20276,A020217,Mount Diablo,35.5118,-118.6994,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+3160,A020161,Mount Diablo,35.4617,-118.6144,MUNZER MEADOW SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+3161,A020165,Mount Diablo,35.5351,-118.5985,OLD CABIN SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+3162,A020237,Mount Diablo,35.4882,-118.6405,BLACK OAK SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+24651,C000220,San Bernardino,34.9874,-119.1855,SAN EMIDIO CREEK,SOUTH VALLEY FLOOR,Kern,,1.80E+11,San Emigdio Creek,Active,Certified,,WILDLANDS CONSERVANCY INC,Corporation
+17276,A011177,Mount Diablo,3.5421,-0.1185,WALKER BASIN CREEK,GRAPEVINE,Kern,,1.80E+11,Upper Walker Basin Creek,Active,Licensed,,LENA LAKE HOMEOWNERS ASSOCIATION,Organization/Association
+17831,A002241,Mount Diablo,35.6025,-118.4489,UNSP,KERN RIVER,Kern,,1.80E+11,Erskine Creek,Active,Licensed,MARY,BLUE,Individual
+20432,A007655,San Bernardino,34.8057,-118.9397,SAM YOUNG SPRING,GRAPEVINE,Kern,,1.80E+11,Castac Lake,Active,Licensed,,FRAZIER PARK PUBLIC UTILITY DISTRICT,Government (State/Municipal)
+24176,A020178,Mount Diablo,35.5745,-118.6428,COTTONWOOD SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+24177,A020179,Mount Diablo,35.5485,-118.6641,BLUFF SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+24178,A020187,Mount Diablo,35.5425,-11.8659,JUNCTION SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+24179,A020232,Mount Diablo,35.4978,-118.6543,PIG PEN SPRING,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+43748,A009922,Mount Diablo,35.4764,-118.6367,UNSP,KERN RIVER,Kern,,1.80E+11,Lucas Creek-Kern River,Active,Licensed,WALTER,HEISEY,Individual
+23268,A000751,Mount Diablo,35.4602,-118.7803,KERN RIVER,KERN RIVER,Kern,,1.80E+11,Stark Creek-Kern River,Active,Licensed,,PACIFIC GAS AND ELECTRIC COMPANY,Corporation
+42161,C000221,San Bernardino,34.9135,-118.9723,TECUYA CREEK,GRAPEVINE,Kern,,1.80E+11,Tecuya Creek,Active,Certified,,WILDLANDS CONSERVANCY INC,Corporation
+18526,A020171,Mount Diablo,3.5572,-118.6377,STEGEMEN SPRING,KERN RIVER,Kern,,1.80E+11,Mill Creek-Kern River,Active,Licensed,,U S SEQUOIA NATL FOREST,Federal Government
+44366,C000219,San Bernardino,34.9633,-119.0937,PLEITO CREEK,GRAPEVINE,Kern,,1.80E+11,Pleito Creek,Active,Certified,,WILDLANDS CONSERVANCY INC,Corporation
+27421,C003956,Mount Diablo,0.3868,-122.2235,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,GEORGE,GAMBLE,Individual
+30123,C003925,Mount Diablo,38.6586,-12.2207,UNST,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,JOHN,AHMANN,Individual
+30124,C003946,Mount Diablo,3.8763,-122.2655,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+30125,C003955,Mount Diablo,38.6903,-122.2318,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,,GAMBLE RANCH LLC,Limited Liability Company
+26451,C002062,Mount Diablo,38.6141,-122.1593,BRUSHY CANYON,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,GUNN RANCH,Corporation
+30158,C001431,Mount Diablo,38.6376,-122.3995,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+30163,C004014,Mount Diablo,38.4508,-122.0583,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,BARBARA,COMFORT,Individual
+30164,C004024,Mount Diablo,38.4563,-12.2066,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,WILLIAM,MORGAN JR,Individual
+30761,C000960,Mount Diablo,3.8666,-122.4592,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,JAMES,BREEDEN,Individual
+32607,C003488,Mount Diablo,38.7014,-122.4251,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,Daniel ,Edmonds-Waters,Individual
+32641,C003937,Mount Diablo,38.8137,-122.3001,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+32642,C003941,Mount Diablo,38.7949,-122.2962,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+32647,C004034,Mount Diablo,38.8059,-1.2268,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,LOLA,KOELLING,Individual
+26729,C003425,Mount Diablo,38.6964,-122.3049,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,E,POE,Individual
+26730,C003490,Mount Diablo,38.6996,-122.4237,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,Daniel ,Edmonds-Waters,Individual
+26733,C003652,Mount Diablo,38.6822,-122.4833,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,PEGGY,DICKSON,Individual
+26777,C000010,Mount Diablo,3.8599,-122.3736,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,THE LAND TRUST OF NAPA COUNTY,Corporation
+26778,C003933,Mount Diablo,38.8189,-122.3054,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+26779,C003939,Mount Diablo,38.7993,-122.2969,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+26780,C003945,Mount Diablo,38.7713,-122.2796,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+26856,C000264,Mount Diablo,38.6408,-122.4275,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+26857,C000268,Mount Diablo,38.6418,-122.3999,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+26960,C000878,Mount Diablo,38.8222,-122.5346,UNST,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,WILL,GONSALVES,Individual
+30361,C001741,Mount Diablo,3.8868,-122.5399,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,,ASBILL VALLEY RANCH,Corporation
+30402,C002069,Mount Diablo,38.6298,-122.3655,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,BERNICE,MEADE,Individual
+24884,C003286,Mount Diablo,38.4682,-122.1858,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,HERBERT,GREEN,Individual
+24885,C003293,Mount Diablo,38.8446,-122.5622,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,LAURA,ARROYO,Individual
+24921,C003426,Mount Diablo,3.8717,-122.3071,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,E,POE,Individual
+24922,C003489,Mount Diablo,38.6999,-122.4249,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,Daniel ,Edmonds-Waters,Individual
+24923,C003604,Mount Diablo,38.5975,-122.4112,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,DONALEE,SHACKELFORD,Individual
+36425,C000214,Mount Diablo,3.8603,-12.2403,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,JACK PETERS TRUST,Corporation
+36430,C000267,Mount Diablo,38.6431,-122.4009,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+36431,C000271,Mount Diablo,38.7571,-122.4668,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+36432,C000277,Mount Diablo,38.7261,-122.3889,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+7336,C003947,Mount Diablo,38.8295,-122.3084,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+7337,C003951,Mount Diablo,38.6957,-122.2747,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,,GAMBLE RANCH LLC,Limited Liability Company
+9852,C000270,Mount Diablo,38.7702,-122.4904,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+9853,C000276,Mount Diablo,38.7305,-122.3783,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+9854,C000278,Mount Diablo,38.7182,-122.3807,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+36063,C003921,Mount Diablo,38.6908,-12.2226,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,JOHN,AHMANN,Individual
+36064,C003949,Mount Diablo,38.7187,-122.2895,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,GEORGE,GAMBLE,Individual
+7370,C001442,Mount Diablo,38.7528,-122.2627,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+7378,C004022,Mount Diablo,38.4601,-122.0788,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,WILLIAM,MORGAN JR,Individual
+36101,C001437,Mount Diablo,3.8576,-122.3663,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+36105,C004021,Mount Diablo,38.4266,-122.0562,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,WILLIAM,MORGAN JR,Individual
+36267,C001742,Mount Diablo,38.8689,-122.5322,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,,ASBILL VALLEY RANCH,Corporation
+7712,C000261,Mount Diablo,38.6435,-122.4433,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+7713,C000265,Mount Diablo,38.6555,-122.3975,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+7714,C000273,Mount Diablo,38.7332,-12.2481,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+9762,C003928,Mount Diablo,38.8381,-122.3429,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,HOMESTAKE MINING COMPANY OF CALIFORNIA,Corporation
+9763,C003943,Mount Diablo,38.7968,-122.2809,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+12714,C000011,Mount Diablo,38.5836,-122.3768,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,THE LAND TRUST OF NAPA COUNTY,Corporation
+1928,C000262,Mount Diablo,38.6405,-122.4482,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+13453,C000269,Mount Diablo,38.7411,-122.5407,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+7992,C003653,Mount Diablo,38.6784,-122.4761,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,PEGGY,DICKSON,Individual
+4009,C003930,Mount Diablo,38.8265,-122.3372,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,GEORGE,GAMBLE,Individual
+2215,C003420,Mount Diablo,38.8807,-122.5301,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,GABRIELA,VASQUEZ,Individual
+4214,C000959,Mount Diablo,38.6657,-122.4602,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Pope Creek,Active,Certified,JAMES,BREEDEN,Individual
+4303,C001449,Mount Diablo,38.7256,-122.2762,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+4304,C001451,Mount Diablo,38.7486,-122.2981,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+13109,C003934,Mount Diablo,38.8235,-122.3326,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,HOMESTAKE MINING COMPANY OF CALIFORNIA,Corporation
+13110,C003936,Mount Diablo,38.8149,-122.3045,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+13111,C003938,Mount Diablo,38.8076,-122.3052,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+13112,C003942,Mount Diablo,38.7937,-122.2942,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+13113,C003944,Mount Diablo,38.7738,-122.2768,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+13118,C004009,Mount Diablo,38.8162,-122.6342,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+13140,C001443,Mount Diablo,38.7438,-122.2595,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+13141,C001444,Mount Diablo,3.8735,-122.2567,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+13142,C001450,Mount Diablo,38.7442,-122.2886,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+13151,C004020,Mount Diablo,38.4265,-122.0868,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,WILLIAM,MORGAN JR,Individual
+13152,C004023,Mount Diablo,38.4546,-122.0817,UNST,UPPER  ELMIRA,Solano,,1.80E+11,Pleasants Creek,Active,Certified,WILLIAM,MORGAN JR,Individual
+1531,C003923,Mount Diablo,38.6825,-122.2258,GREEN CANYON,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,JOHN,AHMANN,Individual
+1532,C003940,Mount Diablo,38.7971,-122.2965,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+1567,C001445,Mount Diablo,38.7361,-122.2493,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+18898,C002061,Mount Diablo,3.8582,-122.1788,WATER CANYON,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,GUNN RANCH,Corporation
+24297,C003954,Mount Diablo,38.6868,-122.2419,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,GEORGE,GAMBLE,Individual
+24327,C001440,Mount Diablo,38.6996,-122.2373,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+24328,C001446,Mount Diablo,38.7369,-12.2264,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+24329,C001447,Mount Diablo,38.7418,-122.2577,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+24330,C001452,Mount Diablo,38.7393,-122.2879,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+15373,C003288,Mount Diablo,38.4627,-122.2166,ROBINSON CREEK,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,GIL,PRIDMORE,Individual
+15374,C003421,Mount Diablo,38.4911,-122.1496,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Certified,,REGENTS OF THE UNIVERSITY OF CALIFORNIA,Government (State/Municipal)
+15376,C003607,Mount Diablo,3.8824,-122.5581,UNST,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,HENRY,LESCHER,Individual
+19021,C000263,Mount Diablo,38.6444,-122.4286,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+23798,C000109,Mount Diablo,38.8261,-122.4469,JERICHO CREEK,PUTAH CREEK,Lake,,1.80E+11,Hunting Creek,Active,Certified,CECIL,BROWN,Individual
+15492,C000266,Mount Diablo,38.6445,-122.4009,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,JULIANA VINEYARDS,Corporation
+24657,C000275,Mount Diablo,38.7432,-122.3822,UNST,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+18640,C003929,Mount Diablo,38.8328,-122.3495,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,HOMESTAKE MINING COMPANY OF CALIFORNIA,Corporation
+18641,C003931,Mount Diablo,38.8378,-1.2231,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+18642,C003948,Mount Diablo,38.7186,-122.2894,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,,GAMBLE RANCH LLC,Limited Liability Company
+18643,C003953,Mount Diablo,38.6867,-122.2463,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,,GAMBLE RANCH LLC,Limited Liability Company
+19281,C003418,Mount Diablo,38.8079,-122.5268,GALLAGHER CREEK,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,,DIMITRI HENRY TTEE OF THE CIMARRON ACC & JLC FAMILY TRUST,Trust
+19282,C003487,Mount Diablo,3.8627,-122.4255,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,DONLON,ARQUES,Individual
+21073,C003285,Mount Diablo,3.8491,-122.1922,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Certified,MARJORIE,CARLSON,Individual
+21076,C003419,Mount Diablo,3.8809,-122.5261,GALLAGHER CREEK,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,,DIMITRI HENRY TTEE OF THE CIMARRON ACC & JLC FAMILY TRUST,Trust
+24375,C001306,Mount Diablo,38.4522,-122.0217,PLEASANT CREEK,UPPER  ELMIRA,Solano,,1.80E+11,McCune Creek-Putah Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+24499,C001740,Mount Diablo,38.8642,-122.5412,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,,ASBILL VALLEY RANCH,Corporation
+24500,C001743,Mount Diablo,38.8723,-122.5097,UNST,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,,ASBILL VALLEY RANCH,Corporation
+15704,C001430,Mount Diablo,38.6364,-122.3976,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+15705,C001432,Mount Diablo,3.8636,-122.3981,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+18843,C001739,Mount Diablo,38.8527,-122.5334,ASBILL CREEK,PUTAH CREEK,Lake,,1.80E+11,Soda Creek,Active,Certified,,ASBILL VALLEY RANCH,Corporation
+21125,C003924,Mount Diablo,0.3867,-122.2091,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,JOHN,AHMANN,Individual
+21126,C003935,Mount Diablo,38.8212,-122.3089,UNST,PUTAH CREEK,Napa,,1.80E+11,Upper Eticuera Creek,Active,Certified,,STATE OF CALIFORNIA WILDLIFE CONSERVATION BOARD,Government (State/Municipal)
+21211,C000272,Mount Diablo,38.7624,-122.4612,UNST,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,,"Langtry Farms, LLC",Limited Liability Company
+27026,C001235,Mount Diablo,40.7272,-122.9512,UNST,TRINITY RIVER,Trinity,,1.80E+11,Weaver Creek,Active,Certified,E,JACKSON,Individual
+27032,C001302,Mount Diablo,40.5991,-122.8312,INDIAN CREEK,TRINITY RIVER,Trinity,,1.80E+11,Indian Creek,Active,Certified,,ALAN ROBERT INOUYE AB LIVING TRUST,Trust
+27419,C002810,Mount Diablo,36.9681,-121.1849,SPICER CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+26139,A016753,Mount Diablo,36.8435,-121.0638,UNST (2),MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+26166,A021884,Mount Diablo,0.3747,-119.7829,OLIVER CREEK,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,DAVID,RADANOVICH,Individual
+26189,A016992,Mount Diablo,37.4868,-119.9978,MCBRIDE CREEK,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Licensed,,OP DEVELOPMENT INC,Corporation
+26190,A016992,Mount Diablo,37.4898,-119.9971,MCBRIDE CREEK,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Licensed,,OP DEVELOPMENT INC,Corporation
+26199,A017172,Mount Diablo,37.4593,-119.7965,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,,LARRY J AND SANDRA R BUNNING LIVING TRUST,Individual
+37579,A014582,Mount Diablo,37.1708,-120.8188,SALT SLOUGH,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Deadmans Slough-Salt Slough,Active,Licensed,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+37580,A014582,Mount Diablo,37.1669,-120.8168,SALT SLOUGH,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Deadmans Slough-Salt Slough,Active,Licensed,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+37581,A014582,Mount Diablo,37.1535,-120.7968,SALT SLOUGH,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Big Buttonwillow Lake-Salt Slough,Active,Licensed,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+37582,A014582,Mount Diablo,37.1565,-120.8122,SALT SLOUGH,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Deadmans Slough-Salt Slough,Active,Licensed,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+30058,A020517,Mount Diablo,37.4513,-119.8671,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,LOYD,HOBBY,Individual
+30585,C002557,Mount Diablo,36.9545,-119.5759,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+30586,C002559,Mount Diablo,36.9305,-119.6101,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+30587,C002566,Mount Diablo,36.9607,-119.5962,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+30638,C002758,Mount Diablo,37.0885,-12.1078,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+30643,C002801,Mount Diablo,37.1311,-121.1723,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+30644,C002814,Mount Diablo,36.9901,-121.1464,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+30645,C002821,Mount Diablo,37.0281,-121.1683,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+30646,C002825,Mount Diablo,37.3466,-120.0321,UNST,MARIPOSA,Mariposa,,1.80E+11,Flat Top Mountain-Deadman Creek,Active,Certified,ARTHUR,MOWRY,Individual
+30647,C002833,Mount Diablo,37.1606,-121.1541,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+26325,C001540,Mount Diablo,36.8274,-120.9971,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+26333,C001702,Mount Diablo,37.4729,-119.8163,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,SANDRA,WICE,Individual
+32415,C002561,Mount Diablo,36.9306,-119.6325,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+32459,C002610,Mount Diablo,37.0744,-119.7699,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,NELDA,WAGNER,Individual
+32462,C002768,Mount Diablo,37.1506,-121.2089,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+32464,C002817,Mount Diablo,3.6987,-121.1943,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+30676,C000804,Mount Diablo,37.3986,-12.0427,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+30685,C000916,Mount Diablo,37.4243,-119.8608,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,RICHARD ,DROZEN,Individual
+30690,C002974,Mount Diablo,3.7214,-12.1228,SYCAMORE CANYON,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+30726,C000749,Mount Diablo,37.1856,-120.0211,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,JOHN,LASGOITY,Individual
+30729,C002999,Mount Diablo,37.2358,-12.1164,MULE GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+30730,C003007,Mount Diablo,3.7205,-121.1685,BEAR GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+28659,A011259,Mount Diablo,37.4852,-119.7462,SPRING BROOK CREEK,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,DENNIS,ALDRIDGE,Individual
+28767,A015554,Mount Diablo,37.4809,-119.8569,OWL CREEK,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,DIANA,RENFRO,Individual
+28786,A018627,Mount Diablo,37.5089,-119.9094,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,LYNN,GILL,Individual
+32511,C002979,Mount Diablo,37.2624,-121.2993,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,STANLEY,AZEVEDO,Individual
+32512,C003008,Mount Diablo,37.2048,-121.1551,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+35362,A029714,Mount Diablo,37.3216,-119.9342,UNST,AHWAHNEE,Mariposa,,1.80E+11,Split Rock Creek-Chowchilla River,Active,Licensed,,GRUPE INVESTMENT COMPANY,Government (State/Municipal)
+28796,A006111,Mount Diablo,37.3092,-120.7902,MCCOY SPILLWAY,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Shag Slough-San Joaquin River,Active,Licensed,,STEVINSON WATER DISTRICT,Corporation
+26452,C002102,Mount Diablo,37.2357,-120.0545,SMITH CREEK,MARIPOSA,Mariposa,,1.80E+11,1.80E+11,Active,Certified,KENNETH,SMITH,Individual
+37784,A021175A,Mount Diablo,37.3638,-11.9957,BECKNELL CREEK,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,,LOU ELLEN RAUCH TRUST,Individual
+28834,A019117,Mount Diablo,0.3705,-120.7782,ARROYO CANAL,DELTA-MENDOTA CANAL,Merced,,1.80E+11,Upper Ruth Lake-Mud Slough,Active,Licensed,RAMONA,WOOTEN,Individual
+28924,A018916,Mount Diablo,37.4893,-119.7889,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,ARTHUR,DAHLEM,Individual
+28925,A018916,Mount Diablo,37.4904,-119.7906,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,ARTHUR,DAHLEM,Individual
+30206,C001335,Mount Diablo,37.2651,-119.9931,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,ALLAN,ROSASCO,Individual
+37835,A021627,Mount Diablo,36.7153,-12.0753,MORENO SPRING,MIDDLE WEST SIDE,Fresno,,1.80E+11,Moreno Gulch,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+30763,C000987,Mount Diablo,3.6963,-121.1729,UNSP,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+30764,C000992,Mount Diablo,37.4205,-119.8674,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,CAROL,TROXEL,Individual
+30767,C001010,Mount Diablo,37.0853,-119.7578,COTTONWOOD CREEK,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,WILLIAM ,GRAHAM,Individual
+26576,C002757,Mount Diablo,37.0928,-1.2109,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+26620,C002826,Mount Diablo,37.1511,-121.0788,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,JACKSON LAND HOLDINGS LP,Limited Partner
+26621,C002839,Mount Diablo,37.1913,-121.2539,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,JACKSON LAND HOLDINGS LP,Limited Partner
+26626,C002939,Mount Diablo,37.4208,-119.9156,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,,JUDITH GRAMMEL EVANS LIVING TRUST,Trust
+32595,A029926,Mount Diablo,37.4696,-120.1116,BEAR CREEK,MARIPOSA,Mariposa,Whispering Oaks Lake,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,,WHISPERING OAKS WEST HOMEOWNERS ASSN,Corporation
+29008,A016753,Mount Diablo,3.6796,-121.0744,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29009,A016753,Mount Diablo,36.7897,-121.0439,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29010,A016753,Mount Diablo,36.7862,-121.0528,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29011,A016753,Mount Diablo,36.7937,-121.0541,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29012,A016753,Mount Diablo,36.8031,-121.0782,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29013,A016753,Mount Diablo,3.6814,-121.0882,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29014,A016753,Mount Diablo,3.6819,-121.0476,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29015,A016753,Mount Diablo,36.8308,-121.0799,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29016,A016753,Mount Diablo,36.8275,-121.0869,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29017,A016753,Mount Diablo,36.8203,-121.0927,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29018,A016753,Mount Diablo,36.8175,-121.1058,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29019,A016753,Mount Diablo,36.8213,-121.0266,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29020,A016753,Mount Diablo,36.8319,-121.0509,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+29021,A016753,Mount Diablo,36.8441,-121.0613,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+35512,A024872,Mount Diablo,37.3955,-119.8146,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,STEPHEN,RODDY,Individual
+35534,C000113,Mount Diablo,37.0534,-119.7069,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,KATHERN,VANDER DUSSEN SAVINO,Individual
+35538,C000170,Mount Diablo,37.2264,-120.0669,UNST,MARIPOSA,Mariposa,,1.80E+11,1.80E+11,Active,Certified, RICHARD    ,KILGORE,Individual
+29085,A016920,Mount Diablo,36.9861,-121.1714,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+26739,C003894,Mount Diablo,37.4603,-120.3974,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Certified,,CHANCE FAMILY 2004 TRUST,Trust
+25790,A013679,Mount Diablo,37.2111,-120.3211,DEADMAN CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,South Slough-Deadman Creek,Active,Licensed,ARTHUR,BRIGHT,Individual
+38048,C001542,Mount Diablo,36.8145,-121.0151,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+38049,C001544,Mount Diablo,36.8778,-121.0138,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,JOHN,ARBURUA,Individual
+26915,C000535,Mount Diablo,37.4049,-120.1247,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,NORMA ,ZARAGOZA ,Individual
+26953,C000801,Mount Diablo,37.3942,-120.4005,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+26954,C000803,Mount Diablo,3.7392,-120.4267,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+26955,C000812,Mount Diablo,37.4991,-119.9364,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,SUSAN,LAZDINS,Individual
+26990,C000914,Mount Diablo,37.3508,-119.8738,UNST,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Certified,SANDRA ,WRIGHT,Individual
+24665,C002500,Mount Diablo,37.4272,-119.9476,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,GERALD,WOODEN,Individual
+24666,C002502,Mount Diablo,37.0235,-119.7464,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,WILLIAM,URRUTIA,Individual
+24699,C002552,Mount Diablo,37.4097,-119.9033,BLADE CREEK,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,WILLIAM,MOFFITT,Individual
+24739,C002699,Mount Diablo,36.9385,-119.6538,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,,EST OF CLAUDE BIGLIONE,Corporation
+24743,C002745,Mount Diablo,37.1286,-121.1277,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+24746,C002797,Mount Diablo,37.1147,-121.1108,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+24748,C002812,Mount Diablo,3.6981,-121.1929,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+24749,C002816,Mount Diablo,36.9882,-121.1882,SPICER CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+24750,C002827,Mount Diablo,37.1368,-121.1288,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+24776,C000915,Mount Diablo,37.3735,-119.9814,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Certified,DIANNA,RYALS,Individual
+25911,A020364C,Mount Diablo,37.4837,-12.0448,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JOHN,SMALLEY,Individual
+30403,C002080,Mount Diablo,3.7432,-120.2024,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,VEVA,MORRISON,Individual
+32725,C000293,Mount Diablo,37.3808,-120.0804,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,VIOLET,VALERI MCGONIGLE,Individual
+33257,C001078,Mount Diablo,37.4492,-120.0838,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,MAE,GUY,Individual
+27051,A027989,Mount Diablo,37.4899,-11.9803,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,TIMOTHY,MARRISON,Individual
+32762,A026879,Mount Diablo,37.4346,-120.0037,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Licensed,CARL R. AND ,"FAMILY TRUST, DOUBLE D LAND CO, LLC",Trust
+32763,A026881,Mount Diablo,37.3101,-120.1132,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Licensed,CARL R. AND ,"FAMILY TRUST, DOUBLE D LAND CO, LLC",Trust
+24825,C000744,Mount Diablo,0.3712,-119.7753,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,BEULA,GARNER,Individual
+24835,C003053,Mount Diablo,36.9575,-121.0171,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,CALIF DEPT OF WATER RESOURCES,Government (State/Municipal)
+24836,C003055,Mount Diablo,36.9684,-12.1022,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,MANUEL,SOUZA JR,Individual
+24864,C000922,Mount Diablo,37.4917,-119.7865,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,RUSSELL,FOLEY,Individual
+24912,C001114,Mount Diablo,37.0514,-119.8685,UNST,AHWAHNEE,Madera,,1.80E+11,Upper Cottonwood Creek,Active,Certified,,"WILL GILL & SONS, INC",Corporation
+24913,C001120,Mount Diablo,37.4395,-119.8283,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,KAREN,KLEM,Individual
+25989,A006111,Mount Diablo,37.2199,-120.6968,OWENS CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Lower Mariposa Slough-Deadman Creek,Active,Licensed,,STEVINSON WATER DISTRICT,Corporation
+26043,A015924,Mount Diablo,36.9843,-119.4864,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,SUSAN ,WELDON,Individual
+26056,A021175B01,Mount Diablo,37.3538,-119.9832,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,SCOTT ,HAYDN-MYER,Individual
+38229,C002397,Mount Diablo,37.3862,-120.2301,UNST,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,VEVA,MORRISON,Individual
+38234,C002501,Mount Diablo,37.0257,-119.7587,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,WILLIAM,URRUTIA,Individual
+38235,C002503,Mount Diablo,36.9826,-119.7713,UNST,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Lost Lake-San Joaquin River,Active,Certified,WILLIAM,URRUTIA,Individual
+30491,C002295,Mount Diablo,37.5384,-120.2475,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Burns Creek,Active,Certified,WILLA MAY,KNOX,Individual
+30524,C000292,Mount Diablo,37.3835,-120.0591,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,VIOLET,VALERI MCGONIGLE,Individual
+38285,C002755,Mount Diablo,37.1004,-121.1059,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+38313,C002834,Mount Diablo,37.1869,-121.1608,BROWN GULCH,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,JACKSON LAND HOLDINGS LP,Limited Partner
+32321,C002066,Mount Diablo,37.2483,-119.9214,UNST,AHWAHNEE,Madera,,1.80E+11,Split Rock Creek-Chowchilla River,Active,Certified,MARCELLA,SCHALLER,Individual
+30531,C002400,Mount Diablo,37.4048,-120.2383,UNST,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,ROY,MORRISON,Individual
+30540,C002504,Mount Diablo,37.4796,-119.8779,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,EDWARD,KONOPACKI,Individual
+32853,C001094,Mount Diablo,37.4255,-120.1463,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,TODD,BODFISH,Individual
+10330,A017623,Mount Diablo,3.7473,-119.8235,UNXX,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,CHARLOTTE,DEVINE,Individual
+31686,A019581,Mount Diablo,3.7047,-119.5586,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,,FORD RANCH INC,Government (State/Municipal)
+31769,A004233,Mount Diablo,37.1652,-120.1709,CHOWCHILLA RIVER,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Licensed,,"Lazy K Ranch, LLC",Limited Liability Company
+35856,A023063,Mount Diablo,37.2657,-11.9838,BEAN GULCH,AHWAHNEE,Madera,,1.80E+11,Willow Creek-Chowchilla River,Active,Licensed,SUE ,MUENSTER,Individual
+36400,C002396,Mount Diablo,37.3615,-120.2357,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,180400011801-Bear Creek,Active,Certified,VEVA,MORRISON,Individual
+36401,C002399,Mount Diablo,37.4104,-120.2266,RATTLESNAKE GULCH,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,ROY,MORRISON,Individual
+14527,A019577,Mount Diablo,37.0295,-119.5751,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,,FORD RANCH INC,Government (State/Municipal)
+35897,A020364B,Mount Diablo,37.4727,-120.4376,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JEFF,CHANCE,Individual
+35898,A020364B,Mount Diablo,37.4752,-120.4218,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JEFF,CHANCE,Individual
+37897,A016920,Mount Diablo,37.0272,-121.1409,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+37898,A016920,Mount Diablo,0.3702,-121.1518,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+37899,A016920,Mount Diablo,37.0125,-121.2086,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+36461,C000402,Mount Diablo,37.3892,-119.7737,UNST,AHWAHNEE,Madera,,1.80E+11,East Fork Chowchilla River,Active,Certified,MALCOLM,LUTZ,Individual
+36468,C002554,Mount Diablo,37.4089,-119.9064,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,WILLIAM,MOFFITT,Individual
+36469,C002560,Mount Diablo,36.9387,-11.9608,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+36502,C002696,Mount Diablo,36.9299,-119.6625,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,,EST OF CLAUDE BIGLIONE,Corporation
+36503,C002710,Mount Diablo,37.3236,-120.2551,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Miles Creek,Active,Certified,CARLTON,CUNNINGHAM,Individual
+36505,C002754,Mount Diablo,37.0967,-121.0863,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+36506,C002785,Mount Diablo,37.1146,-121.2144,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+36507,C002789,Mount Diablo,37.1293,-121.1871,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+36508,C002829,Mount Diablo,37.1776,-121.2462,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+36530,C000800,Mount Diablo,37.4007,-120.4022,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+36531,C000813,Mount Diablo,37.4838,-119.9379,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,SUSAN,LAZDINS,Individual
+29578,A021887,Mount Diablo,3.7354,-119.9609,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,,JAMES W. LARRICK AND JUN CHEN REVOCABLE LIVING TRUST,Trust
+29579,A021887,Mount Diablo,37.3454,-119.9496,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,,JAMES W. LARRICK AND JUN CHEN REVOCABLE LIVING TRUST,Trust
+6739,A021560,Mount Diablo,36.9891,-121.1755,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+6745,A021625,Mount Diablo,3.6738,-120.7774,COUNTRY CLUB SPRING,MIDDLE WEST SIDE,Fresno,,1.80E+11,Moreno Gulch,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+7332,C003895,Mount Diablo,37.4831,-120.4007,CANAL CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Certified,,CHANCE FAMILY 2004 TRUST,Trust
+7333,C003897,Mount Diablo,37.5094,-120.0225,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,CHARLOTTE,WILSON,Individual
+37993,A017741,Mount Diablo,37.4593,-119.7965,ITALIAN CREEK,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,RONALD,KILPATRICK,Individual
+29612,C000174,Mount Diablo,37.2297,-120.0751,UNST,MARIPOSA,Mariposa,,1.80E+11,1.80E+11,Active,Certified,JAN,SMITH,Individual
+29671,A022197,Mount Diablo,36.7185,-120.7238,UNSP,MIDDLE WEST SIDE,Fresno,,1.80E+11,Moreno Gulch,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+31770,A004233,Mount Diablo,37.1622,-120.1647,CHOWCHILLA RIVER,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Licensed,,"Lazy K Ranch, LLC",Limited Liability Company
+9287,A017646,Mount Diablo,37.4939,-120.1356,UNXX,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,,HORACE MEYER ESTATE,Government (State/Municipal)
+9334,C001534,Mount Diablo,36.8132,-120.9615,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Ortigalita Creek,Active,Certified,JOHN,ARBURUA,Individual
+7364,C001371,Mount Diablo,0.3745,-12.0069,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,,THE MIMLER FAMILY TRUST 2010,Trust
+9803,A026088,Mount Diablo,37.4382,-120.2864,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Lower Burns Creek,Active,Licensed,LEWIS,MATHIS,Individual
+11703,A011259,Mount Diablo,37.4873,-119.7403,UNSP,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,DENNIS,ALDRIDGE,Individual
+35945,A020277,Mount Diablo,37.4593,-119.7965,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,DWAYNE,BOWER,Individual
+36000,A023734,Mount Diablo,37.4243,-119.9697,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Licensed,,ESTATE OF JACK GARDENER KIRK,Estate
+36540,C000921,Mount Diablo,37.4547,-119.7569,UNSP,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,ROBERT,WHITE,Individual
+36556,C002984,Mount Diablo,37.2403,-121.3186,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+36589,C003000,Mount Diablo,3.7236,-121.1733,MULE GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+36590,C003004,Mount Diablo,37.1947,-121.1815,BEAR GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+36591,C003009,Mount Diablo,37.2336,-12.1244,LONG CANYON,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+36594,C003057,Mount Diablo,36.9674,-121.0165,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,MANUEL,SOUZA JR,Individual
+36595,C003059,Mount Diablo,36.9883,-121.0091,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Los Banos Reservoir-Los Banos Creek,Active,Certified,,CALIF DEPT OF WATER RESOURCES,Government (State/Municipal)
+36068,C003998,Mount Diablo,37.0137,-119.4781,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Certified,CAROLYN,KRAUS,Individual
+36624,C000990,Mount Diablo,36.9556,-121.1608,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+36667,C001112,Mount Diablo,37.0579,-119.8626,UNST,AHWAHNEE,Madera,,1.80E+11,Upper Cottonwood Creek,Active,Certified,,"WILL GILL & SONS, INC",Corporation
+6845,A021693,Mount Diablo,3.7424,-11.9878,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,DOUGLAS,MUELLER,Individual
+6848,A021791,Mount Diablo,36.6776,-120.7378,LOWER SPRING,MIDDLE WEST SIDE,Fresno,,1.80E+11,Moreno Gulch,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+6859,A027860,Mount Diablo,37.3283,-120.0718,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Licensed,LARRY,FOWLER,Individual
+6899,A025225,Mount Diablo,3.7354,-119.9609,BECKNELL CREEK,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,,JAMES W. LARRICK AND JUN CHEN REVOCABLE LIVING TRUST,Trust
+7377,C001513,Mount Diablo,37.0165,-119.5483,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Certified,PAUL,SKINNER,Individual
+7379,C004031,Mount Diablo,37.0139,-119.4959,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Certified,DEBORAH,COLE,Individual
+7455,C001548,Mount Diablo,36.8534,-121.0155,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,FREDERICK,HAAS,Individual
+29836,A025617,Mount Diablo,37.4916,-119.8048,UNSP,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,TIMOTHY,MARRISON,Individual
+31981,A021560,Mount Diablo,36.9928,-121.1906,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+31982,A021560,Mount Diablo,3.7001,-121.1975,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+31983,A021560,Mount Diablo,37.0302,-121.1779,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+9429,C002131,Mount Diablo,37.3209,-119.9473,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Certified,ADELE,HANSEN,Individual
+9950,C000861,Mount Diablo,37.4833,-119.7959,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,CLAUDE,SPENCER,Individual
+10039,C001119,Mount Diablo,3.7439,-1.1983,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,KAREN,KLEM,Individual
+32003,A016656,Mount Diablo,37.4131,-12.0208,UNST,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Licensed,KENNETH,MORRISON,Individual
+14705,A020950,Mount Diablo,37.4312,-119.8194,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,VICKI,CARROLL,Individual
+29257,A017544,Mount Diablo,3.7459,-119.8781,UNXX,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,RAYMOND,BRIESE JR,Individual
+29267,A017611,Mount Diablo,37.4766,-119.8225,UNXX,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Licensed,JOHN,BRUCE,Individual
+6957,A019428,Mount Diablo,37.3365,-119.8771,UNST,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Licensed,,GREENLAW GRUPE JR. OPERATING COMPANY,Government (State/Municipal)
+14837,A016753,Mount Diablo,36.8275,-121.0608,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+14838,A016753,Mount Diablo,36.8341,-121.0268,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+7596,C002072,Mount Diablo,37.4796,-119.8235,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,JAMES,OWEN,Individual
+7599,C002103,Mount Diablo,37.2361,-12.0018,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+9514,C002395,Mount Diablo,37.3731,-120.2477,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Lower Burns Creek,Active,Certified,VEVA,MORRISON,Individual
+9559,C002740,Mount Diablo,37.1221,-121.1043,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+9560,C002749,Mount Diablo,37.1048,-121.2053,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+9561,C002751,Mount Diablo,37.0966,-121.1045,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+9563,C002759,Mount Diablo,3.7094,-121.0681,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+9564,C002784,Mount Diablo,3.7108,-121.2222,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+9565,C002794,Mount Diablo,37.1035,-121.1467,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+9567,C002811,Mount Diablo,36.9799,-121.1922,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+9568,C002822,Mount Diablo,37.0164,-121.1908,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+9627,C002832,Mount Diablo,37.1732,-1.2116,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,JACKSON LAND HOLDINGS LP,Limited Partner
+9636,C002953,Mount Diablo,3.7327,-120.0065,RAYNOR CREEK,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,MARY,VANALEN,Individual
+9639,C002989,Mount Diablo,37.2319,-121.2594,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+7650,F003752C,Mount Diablo,37.4217,-119.7383,UNSP,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,,U S SIERRA NATL FOREST,Corporation
+31537,A018525,Mount Diablo,37.4521,-119.7693,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,WENDY,PEARSON DUKE,Individual
+31575,A012714,Mount Diablo,37.5006,-119.9598,STOCKTON CREEK,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Licensed,,MARIPOSA PUBLIC UTILITY DISTRICT,Government (State/Municipal)
+32140,A017363,Mount Diablo,3.7034,-119.5459,UNXX,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Licensed,,SIERRA FOOTHILL CONSERVANCY,Corporation
+32184,A017775,Mount Diablo,37.2068,-120.3486,DEADMAN CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,South Slough-Deadman Creek,Active,Licensed,ANTHONY,VALLELUNGA,Individual
+32185,A017819,Mount Diablo,37.4756,-119.8924,PEGLEG CREEK,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,JOHN,WALTERS,Individual
+32195,A022976,Mount Diablo,37.4348,-120.4652,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,,ROBINSON CATTLE COMPANY,Government (State/Municipal)
+11957,A018876,Mount Diablo,37.4232,-119.8674,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,CAROL,TROXEL,Individual
+12530,A021560,Mount Diablo,36.9927,-121.1584,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12531,A021560,Mount Diablo,37.0189,-121.1415,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12532,A021560,Mount Diablo,37.0265,-121.1546,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12533,A021560,Mount Diablo,37.0243,-121.1559,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12534,A021560,Mount Diablo,3.7027,-121.1608,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12535,A021560,Mount Diablo,37.0154,-121.1723,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12536,A021560,Mount Diablo,37.0199,-121.1706,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12537,A021560,Mount Diablo,37.0258,-121.1882,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+12538,A021560,Mount Diablo,37.0224,-121.2039,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+34563,A018329,Mount Diablo,37.4655,-120.3608,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Upper Black Rascal Creek,Active,Licensed,,MERCED FALLS INVESTORS LLC,Corporation
+12616,C000114,Mount Diablo,37.0192,-119.7269,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,DOROTHY,DUSSEN,Individual
+15034,C001547,Mount Diablo,36.8538,-121.0051,MOLINA CANYON,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,FREDERICK,HAAS,Individual
+15082,C001943,Mount Diablo,37.4277,-120.1556,GORDO CREEK,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,DENNIS,ZIEGENFUSS,Individual
+36312,C002067,Mount Diablo,37.2336,-119.9466,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,MARCELLA,SCHALLER,Individual
+15129,C002071,Mount Diablo,37.4809,-119.8228,UNSP,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,JAMES,OWEN,Individual
+7677,C002297,Mount Diablo,37.5494,-120.2465,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Burns Creek,Active,Certified,WILLA MAY,KNOX,Individual
+7683,C002398,Mount Diablo,37.3994,-120.2229,UNST,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,VEVA,MORRISON,Individual
+7721,C002401,Mount Diablo,37.3835,-120.2498,UNST,SAN JOAQUIN VALLEY FLOOR,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,VEVA,MORRISON,Individual
+7761,C000398,Mount Diablo,37.3821,-119.7745,UNST,AHWAHNEE,Madera,,1.80E+11,East Fork Chowchilla River,Active,Certified,MALCOLM,LUTZ,Individual
+7765,C000442,Mount Diablo,37.3916,-119.9754,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,SHEREE ,KOKEN,Individual
+7767,C002556,Mount Diablo,3.7457,-119.9243,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,MARILYN,CHOW,Individual
+7768,C002562,Mount Diablo,36.9409,-119.6371,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+9166,A021792,Mount Diablo,36.6512,-120.7437,INDIAN SPRING,COAST RANGE,Fresno,,1.80E+11,Upper Poso Slough,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+9641,C003025,Mount Diablo,37.0879,-121.1771,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,WOLFSEN LAND & CATTLE COMPANY,Corporation
+326,A012794,Mount Diablo,37.4876,-119.7462,UNSP,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,MICHAEL,RODUNER,Individual
+385,A016753,Mount Diablo,36.8242,-121.0234,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+386,A016753,Mount Diablo,3.6823,-121.0228,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Licensed,,LAS AGUILAS CORP,Government (State/Municipal)
+402,A016790,Mount Diablo,37.3512,-119.8781,UNCR,AHWAHNEE,Mariposa,Unnamed Stream,1.80E+11,Striped Rock Creek,Active,Licensed,,LARRY J AND SANDRA R BUNNING LIVING TRUST,Individual
+3225,A025491,Mount Diablo,37.4899,-11.9803,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Licensed,TIMOTHY,MARRISON,Individual
+3308,A021172A,Mount Diablo,37.3929,-119.9506,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Licensed,,LOU ELLEN RAUCH TRUST,Individual
+925,A027524,Mount Diablo,37.4637,-120.1315,UNST,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,HECTOR,CORNELIO,Individual
+14873,A016971,Mount Diablo,37.4821,-120.0668,VICTORIA GULCH,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,,HORACE MEYER ESTATE,Government (State/Municipal)
+14874,A016971,Mount Diablo,37.4802,-120.0699,VICTORIA GULCH,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,,HORACE MEYER ESTATE,Government (State/Municipal)
+14936,A022724,Mount Diablo,36.9808,-119.7828,UNST,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Little Dry Creek,Active,Licensed,William,Jamison,Individual
+14937,A022724,Mount Diablo,36.9893,-1.1978,UNST,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Little Dry Creek,Active,Licensed,William,Jamison,Individual
+14960,A010797,Mount Diablo,37.2236,-120.4948,NORTH SLOUGH MARIPOSA CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Mariposa Creek-Duck Slough,Active,Licensed,,THE VANDER WOUDE FAMILY REVOCABLE TRUST OF NOV 25 2003,Individual
+13346,C002086,Mount Diablo,3.7204,-119.9695,WILDCAT CREEK,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,L,BEECHINOR,Individual
+13347,C002099,Mount Diablo,37.2484,-120.0668,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Dutchman Creek,Active,Certified,KENNETH,SMITH,Individual
+1027,A027700,Mount Diablo,0.3747,-120.1122,BEAR CREEK,MARIPOSA,Mariposa,Whispering Oaks Lake,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,,WHISPERING OAKS WEST HOMEOWNERS ASSN,Organization/Association
+1032,A027747,Mount Diablo,37.2878,-119.9665,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Licensed,,MICHAEL TERRY TRUST,Trust
+1052,A021626,Mount Diablo,36.7517,-120.8005,UNSP,MIDDLE WEST SIDE,Fresno,,1.80E+11,Lower Little Panoche Creek,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+1059,A021823,Mount Diablo,37.2095,-120.3341,DEADMAN CREEK,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,South Slough-Deadman Creek,Active,Licensed,,BRIGHT ORCHARDS LLC,Limited Liability Company
+1792,C002082,Mount Diablo,37.4295,-12.0188,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,VEVA,MORRISON,Individual
+1793,C002084,Mount Diablo,37.4306,-120.1794,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,ROY,MORRISON,Individual
+1795,C002101,Mount Diablo,3.7238,-120.0081,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+14985,A022977B,Mount Diablo,37.4535,-120.4266,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JEFF,CHANCE,Individual
+14986,A022977C,Mount Diablo,37.4841,-12.0448,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Canal Creek,Active,Licensed,JOHN,SMALLEY,Individual
+7828,C002695,Mount Diablo,36.9362,-119.6605,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,,EST OF CLAUDE BIGLIONE,Corporation
+7832,C002752,Mount Diablo,37.0845,-121.0948,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+7833,C002760,Mount Diablo,37.1483,-121.2315,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+7834,C002763,Mount Diablo,37.1365,-121.1782,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+7838,C002793,Mount Diablo,37.1079,-121.1498,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+7839,C002795,Mount Diablo,37.1189,-121.1866,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+7840,C002799,Mount Diablo,37.1254,-121.1476,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+7843,C002840,Mount Diablo,37.1897,-12.1248,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+7864,C000864,Mount Diablo,37.4074,-120.1371,UNST,MARIPOSA,Mariposa,,1.80E+11,Miles Creek,Active,Certified,ERNEST,MARTINI,Individual
+7876,C002982,Mount Diablo,37.2132,-121.2239,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+7877,C002992,Mount Diablo,37.2528,-12.1159,OAT GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+7905,C000700,Mount Diablo,37.0426,-119.6999,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,ANN,JONES,Individual
+7910,C002998,Mount Diablo,37.2379,-121.1822,MULE GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+3383,A021791,Mount Diablo,3.6677,-120.7409,UPPER SPRING,MIDDLE WEST SIDE,Fresno,,1.80E+11,Moreno Gulch,Active,Licensed,,US BUREAU OF LAND MANAGEMENT,Federal Government
+3412,A016920,Mount Diablo,3.7023,-121.1974,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+3413,A016920,Mount Diablo,37.0258,-121.1882,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Licensed,,HARRIS RANCH LLC,Limited Liability Company
+3466,A022725,Mount Diablo,37.0307,-119.7611,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Licensed,,MARGARET A JAMISON TRUST 2006,Individual
+3467,A022726,Mount Diablo,37.0519,-119.7732,UNST,AHWAHNEE,Madera,,1.80E+11,Hildreth Creek,Active,Licensed,William,Jamison,Individual
+3499,A017796,Mount Diablo,37.4731,-119.8394,ITALIAN CREEK,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Licensed,RONALD,KILPATRICK,Individual
+7943,C000966,Mount Diablo,37.4878,-119.8141,CAMPMEETING CREEK,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,LORNE,FRAZIER,Individual
+7956,C003219,Mount Diablo,37.5161,-119.8211,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,JEFFREY,LISTON,Individual
+3652,C002079,Mount Diablo,37.4186,-120.2125,UNST,MARIPOSA,Mariposa,,1.80E+11,Lower Burns Creek,Active,Certified,VEVA,MORRISON,Individual
+3653,C002083,Mount Diablo,37.4201,-120.1808,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,VEVA,MORRISON,Individual
+3654,C002085,Mount Diablo,37.4116,-120.1605,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,VEVA,MORRISON,Individual
+3655,C002087,Mount Diablo,37.1948,-11.9985,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,L,BEECHINOR,Individual
+3656,C002098,Mount Diablo,37.2219,-120.0305,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+1974,C002550,Mount Diablo,37.4078,-119.8985,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,WILLIAM,MOFFITT,Individual
+1975,C002551,Mount Diablo,37.4078,-119.9123,UNST,AHWAHNEE,Mariposa,,1.80E+11,Striped Rock Creek,Active,Certified,WILLIAM,MOFFITT,Individual
+13486,C000401,Mount Diablo,37.4013,-119.7701,UNST,AHWAHNEE,Madera,,1.80E+11,East Fork Chowchilla River,Active,Certified,MALCOLM,LUTZ,Individual
+13495,C002553,Mount Diablo,37.4075,-119.9085,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,WILLIAM,MOFFITT,Individual
+3759,C002558,Mount Diablo,36.9462,-119.5933,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+3760,C002565,Mount Diablo,3.6961,-119.6294,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+7986,C001197,Mount Diablo,37.2923,-119.9065,UNST,AHWAHNEE,Madera,,1.80E+11,Split Rock Creek-Chowchilla River,Active,Certified,ELLSWORTH,PHILLIPS,Individual
+3816,C002709,Mount Diablo,37.3171,-120.2692,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Miles Creek,Active,Certified,CATHERINE,CUNNINGHAM,Individual
+3819,C002761,Mount Diablo,37.1311,-121.2131,WILLIAMS CANYON,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+3821,C002788,Mount Diablo,37.1131,-121.2003,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+3822,C002790,Mount Diablo,37.1283,-121.1747,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+3823,C002800,Mount Diablo,37.1256,-121.1658,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+3824,C002813,Mount Diablo,36.9883,-121.1573,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+3825,C002819,Mount Diablo,36.9912,-121.1851,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+3866,C002985,Mount Diablo,37.2475,-121.3039,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+2028,C002787,Mount Diablo,37.1073,-121.2013,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+2030,C002820,Mount Diablo,37.0123,-121.1476,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+2067,C000849,Mount Diablo,37.4986,-119.9388,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,SUSAN,LAZDINS,Individual
+2071,C000911,Mount Diablo,37.4728,-119.8863,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,BRIAN ,JACOBSEN,Individual
+2081,C002922,Mount Diablo,36.8187,-121.1161,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Certified,ALLEN,COROTTO,Individual
+2085,C002986,Mount Diablo,37.2382,-121.3004,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+2086,C002988,Mount Diablo,37.2392,-121.2733,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+13526,C002697,Mount Diablo,36.9305,-119.6556,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,,EST OF CLAUDE BIGLIONE,Corporation
+13528,C002741,Mount Diablo,37.1506,-121.1763,ROMERO CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+13529,C002818,Mount Diablo,36.9906,-121.1926,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+13531,C002835,Mount Diablo,37.1853,-121.1443,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,JACKSON LAND HOLDINGS LP,Limited Partner
+13559,C000860,Mount Diablo,37.4844,-119.7959,UNST,AHWAHNEE,Mariposa,,1.80E+11,East Fork Chowchilla River,Active,Certified,CLAUDE,SPENCER,Individual
+13568,C002921,Mount Diablo,36.8256,-121.1125,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Certified,ALLEN,COROTTO,Individual
+13569,C002923,Mount Diablo,36.8204,-121.1227,UNST,MIDDLE WEST SIDE,San Benito,,1.80E+11,Upper South Fork Los Banos Creek,Active,Certified,ALLEN,COROTTO,Individual
+13572,C002940,Mount Diablo,37.4267,-119.9552,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,DIANE,WARNES,Individual
+13573,C002967,Mount Diablo,37.2146,-121.2641,RICHARD CREEK,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,JOHN,MOITOZO,Individual
+13574,C002976,Mount Diablo,37.2464,-121.2682,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+2163,C000989,Mount Diablo,36.9549,-121.1464,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+2171,C003287,Mount Diablo,37.3883,-120.0897,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,CARL R. AND ,"FAMILY TRUST, DOUBLE D LAND CO, LLC",Trust
+13595,C002993,Mount Diablo,37.2561,-121.1683,OAT GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+13597,C003005,Mount Diablo,37.2189,-121.1439,BEAR GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+13600,C003060,Mount Diablo,37.4699,-119.9163,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,HELEN ,COTTON,Individual
+4133,C000606,Mount Diablo,37.4038,-12.0123,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,NORMA ,ZARAGOZA ,Individual
+4179,C000805,Mount Diablo,37.3991,-120.4218,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+4181,C000871,Mount Diablo,37.4831,-119.8696,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,JEAN,HOLMES,Individual
+4217,C001009,Mount Diablo,37.4129,-119.8529,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,RAYMOND ,THATCHER,Individual
+4218,C001021,Mount Diablo,37.3225,-119.8032,UNST,AHWAHNEE,Madera,,1.80E+11,Willow Creek-Chowchilla River,Active,Certified,SCOTT ,VOURI,Individual
+4300,C001409,Mount Diablo,37.4565,-120.2096,INDIAN GULCH,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,ANNE,WILLHOITE,Individual
+4306,C001502,Mount Diablo,3.7424,-11.9878,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,,WASS INVESTMENTS,Organization/Association
+13115,C003963,Mount Diablo,37.2256,-119.9996,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,,SEQUOIA HOLDINGS INC,Corporation
+13153,C004032,Mount Diablo,37.3996,-120.0318,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,GENEVA,PARKER,Individual
+13677,C001080,Mount Diablo,37.2138,-120.0041,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,JANETTE ,SMITH,Individual
+15289,C002830,Mount Diablo,37.1772,-121.1724,LONG GULCH,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+15290,C002837,Mount Diablo,37.1796,-121.2716,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,HUSONG DEER CLUB,Organization/Association
+18899,C002065,Mount Diablo,37.4715,-119.8587,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,MARGUERITE,CAMPBELL,Individual
+18901,C002097,Mount Diablo,37.2136,-12.0022,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+21349,C000988,Mount Diablo,3.6968,-121.1537,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+24298,C003958,Mount Diablo,37.4423,-11.9906,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,ELEANOR,SIMPSON,Individual
+24332,C004013,Mount Diablo,37.1744,-121.0176,UNST,DELTA-MENDOTA CANAL,Merced,,1.80E+11,180400011902-Los Banos Creek,Active,Certified,,JACKSON RANCHERIA DEVELOPMENT CORPORATION,Federal Government
+15332,C003054,Mount Diablo,36.9564,-121.0167,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,CALIF DEPT OF WATER RESOURCES,Government (State/Municipal)
+15378,C003806,Mount Diablo,37.0427,-119.5514,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Upper Little Dry Creek,Active,Certified,BETSY,HUFFMAN,Individual
+19070,C000399,Mount Diablo,37.3845,-119.7748,UNST,AHWAHNEE,Madera,,1.80E+11,East Fork Chowchilla River,Active,Certified,MALCOLM,LUTZ,Individual
+19075,C002555,Mount Diablo,37.4571,-119.9267,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,MARILYN,CHOW,Individual
+19076,C002564,Mount Diablo,36.9385,-119.6261,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+19084,C002669,Mount Diablo,37.4439,-119.8228,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,,ANLUROKA PROPERTIES LLC,Limited Liability Company
+19121,C002750,Mount Diablo,37.0972,-121.0901,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,O'Neill Forebay-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+19124,C002831,Mount Diablo,37.1712,-121.1624,QUINTO CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+19125,C002836,Mount Diablo,3.7175,-121.2716,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+19151,C000785,Mount Diablo,37.4841,-119.8462,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,DUSTIN,ROWE,Individual
+19154,C000806,Mount Diablo,37.4013,-120.4215,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+19157,C000851,Mount Diablo,37.4722,-119.8811,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,BURT,MANSUR,Individual
+21398,C001121,Mount Diablo,37.4401,-119.8307,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,KAREN,KLEM,Individual
+21402,C001187,Mount Diablo,37.4465,-11.9809,UNST,AHWAHNEE,Mariposa,,1.80E+11,Middle Fork Chowchilla River,Active,Certified,NORRIS,SAUNDERS,Individual
+23799,C000112,Mount Diablo,37.0533,-119.6971,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,KATHERN,VANDER DUSSEN SAVINO,Individual
+24549,C001981,Mount Diablo,37.4685,-119.9145,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,HELEN ,COTTON,Individual
+24558,C002104,Mount Diablo,3.7222,-119.9944,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+24624,C002299,Mount Diablo,37.5263,-120.2438,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Burns Creek,Active,Certified,WILLA MAY,KNOX,Individual
+15448,C000171,Mount Diablo,37.2066,-120.0533,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,RICHARD ,BIGGERS,Individual
+15575,C000807,Mount Diablo,3.7409,-120.4122,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+19163,C000889,Mount Diablo,37.3108,-120.0045,RAYNOR CREEK,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,ROY,WILKERSON,Individual
+19168,C002920,Mount Diablo,36.9038,-121.1528,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+19172,C002990,Mount Diablo,37.2048,-121.1915,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+19198,C000746,Mount Diablo,37.2416,-120.0857,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Dutchman Creek,Active,Certified,JAN,SMITH,Individual
+19200,C002994,Mount Diablo,37.2448,-121.2087,OAT GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+19201,C002995,Mount Diablo,37.2452,-121.2015,OAT GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+19202,C002996,Mount Diablo,37.2112,-121.1308,WHITNEY CANYON,MIDDLE WEST SIDE,Merced,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+19286,C003645,Mount Diablo,37.3726,-120.0798,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,JAMES,HUGHES,Individual
+20978,C002975,Mount Diablo,37.1931,-121.1241,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Mustang Creek-Los Banos Creek,Active,Certified,,DAVID E WOOD TRUSTEE,Trust
+20979,C002977,Mount Diablo,37.2519,-121.2624,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+20980,C003010,Mount Diablo,37.2356,-121.2402,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+21020,C003056,Mount Diablo,36.9712,-121.0244,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,MANUEL,SOUZA JR,Individual
+24368,C001245,Mount Diablo,37.4146,-120.0059,UNST,MARIPOSA,Mariposa,,1.80E+11,Ganns Creek-Mariposa Creek,Active,Certified,EARLE,ADAMS,Individual
+24374,C001301,Mount Diablo,37.2667,-119.9811,UNST,AHWAHNEE,Mariposa,,1.80E+11,Chapman Creek,Active,Certified,PHILIP,WRIGHT,Individual
+24380,C001350,Mount Diablo,37.4473,-119.9023,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,RUTH,CONWAY,Individual
+24410,C001530,Mount Diablo,36.8345,-120.9985,PIEDRA AZUL CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,FREDERICK,HAAS,Individual
+15659,C001113,Mount Diablo,37.0535,-119.8558,UNST,AHWAHNEE,Madera,,1.80E+11,Hildreth Creek,Active,Certified,,"WILL GILL & SONS, INC",Corporation
+18719,C001322,Mount Diablo,37.0317,-119.7086,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,LLOYD,LESHER,Individual
+21128,C003969,Mount Diablo,3.7424,-11.9878,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,GENE,BOWER,Individual
+21159,C000173,Mount Diablo,37.2047,-120.0698,UNST,MARIPOSA,Mariposa,,1.80E+11,1.80E+11,Active,Certified,RICHARD ,BIGGERS,Individual
+15256,C002798,Mount Diablo,37.1131,-121.0892,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+15257,C002824,Mount Diablo,3.7341,-120.0249,UNST,MARIPOSA,Mariposa,,1.80E+11,Flat Top Mountain-Deadman Creek,Active,Certified,ARTHUR,MOWRY,Individual
+44129,C002792,Mount Diablo,37.1036,-121.1676,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+44130,C002796,Mount Diablo,37.1256,-121.1685,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+44132,C002815,Mount Diablo,36.9899,-121.1789,SODA GULCH,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+44157,C002828,Mount Diablo,37.1763,-121.1412,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+44160,C002867,Mount Diablo,37.2147,-119.9591,UNST,AHWAHNEE,Madera,,1.80E+11,Split Rock Creek-Chowchilla River,Active,Certified,NORMA,DILL,Individual
+44167,C002991,Mount Diablo,37.2516,-121.1768,OAT GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+20802,C002100,Mount Diablo,37.2633,-120.1027,UNST,MARIPOSA,Mariposa,,1.80E+11,Flat Top Mountain-Deadman Creek,Active,Certified,KENNETH,SMITH,Individual
+20883,C002563,Mount Diablo,36.9491,-1.1967,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,MORGAN,BLASINGAME,Individual
+38320,C002981,Mount Diablo,37.2105,-121.2153,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+38321,C002983,Mount Diablo,37.2164,-121.2359,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+38322,C002987,Mount Diablo,37.2446,-121.2963,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+38323,C003006,Mount Diablo,37.2114,-121.1487,BEAR GULCH,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+38376,C003058,Mount Diablo,36.9815,-120.9906,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Los Banos Reservoir-Los Banos Creek,Active,Certified,,CALIF DEPT OF WATER RESOURCES,Government (State/Municipal)
+20923,C002764,Mount Diablo,37.1298,-12.1161,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+20925,C002809,Mount Diablo,36.9956,-121.1879,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Spicer Creek-San Luis Creek,Active,Certified,,LINDEMANN FARMS INC,Corporation
+42265,C002748,Mount Diablo,37.1183,-121.1533,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+42266,C002762,Mount Diablo,37.1353,-121.2087,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Romero Creek,Active,Certified,JOHN,MOITOZO,Individual
+42268,C002791,Mount Diablo,37.1071,-121.1862,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,JOHN,MOITOZO,Individual
+42269,C002838,Mount Diablo,37.1795,-121.2562,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Quinto Creek,Active,Certified,,CROCKER NATIONAL BANK,Corporation
+38470,C003962,Mount Diablo,37.2192,-120.0053,UNST,AHWAHNEE,Madera,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,,SEQUOIA HOLDINGS INC,Corporation
+16040,C002997,Mount Diablo,37.2195,-121.1271,WHITNEY CANYON,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,DAVID,WOOD,Individual
+42288,C000802,Mount Diablo,37.3914,-120.4112,UNST,SAN JOAQUIN VALLEY FLOOR,Merced,,1.80E+11,Fahrens Creek,Active,Certified,,THE NATURE CONSERVANCY,Corporation
+42295,C000862,Mount Diablo,37.4336,-119.8594,UNST,AHWAHNEE,Mariposa,,1.80E+11,West Fork Chowchilla River,Active,Certified,LORENE,GRAMMER,Individual
+42307,C002980,Mount Diablo,37.2094,-121.2149,UNST,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+42338,C000747,Mount Diablo,37.2358,-120.0737,UNST,MARIPOSA,Mariposa,,1.80E+11,1.80E+11,Active,Certified,JAN,SMITH,Individual
+42340,C003011,Mount Diablo,37.2274,-121.2384,LONG CANYON,MIDDLE WEST SIDE,Stanislaus,,1.80E+11,Garzas Creek,Active,Certified,,SIMON NEWMAN LLC,Limited Liability Company
+42384,C000996,Mount Diablo,37.0672,-11.9759,UNST,AHWAHNEE,Madera,,1.80E+11,Cottonwood Creek,Active,Certified,JAMES,COBB,Individual
+42426,C001093,Mount Diablo,3.7402,-120.1044,UNST,MARIPOSA,Mariposa,,1.80E+11,Upper Owens Creek,Active,Certified,WARREN,HOULIHAN,Individual
+42427,C001110,Mount Diablo,37.0599,-119.8745,UNST,AHWAHNEE,Madera,,1.80E+11,Upper Cottonwood Creek,Active,Certified,,"WILL GILL & SONS, INC",Corporation
+42432,C001146,Mount Diablo,37.0286,-119.8279,UNST,AHWAHNEE,Madera,,1.80E+11,Hildreth Creek,Active,Certified,WAYNE,FULTON,Individual
+43984,C002081,Mount Diablo,37.4306,-120.1997,UNST,MARIPOSA,Mariposa,,1.80E+11,Bear Reservoir-Bear Creek,Active,Certified,ROY,MORRISON,Individual
+43985,C002096,Mount Diablo,37.2192,-120.0415,UNST,AHWAHNEE,Mariposa,,1.80E+11,Raynor Creek-Chowchilla River,Active,Certified,KENNETH,SMITH,Individual
+30157,C001429,Mount Diablo,38.6308,-122.3862,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+30736,C003128,Mount Diablo,38.5885,-122.1942,OIL WELL CANYON CREEK,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,CONIT ESTABLISHMENT,Corporation
+32557,C003132,Mount Diablo,38.5918,-122.1995,UNST,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,PACIFIC LIVESTOCK INC,Corporation
+38139,C002057,Mount Diablo,38.6061,-122.1537,GOSLING CANYON,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,GUNN RANCH,Corporation
+32320,C002059,Mount Diablo,38.5814,-12.2141,RIGHT-HAND CANYON,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,GUNN RANCH,Corporation
+34223,C005076,Mount Diablo,3.8658,-122.2411,UNST,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,JOHN,AHMANN,Individual
+34224,C005078,Mount Diablo,38.6726,-122.2119,HARRIS CANYON,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,JOHN,AHMANN,Individual
+36597,C003129,Mount Diablo,0.0386,-122.1914,TIN CAN CANYON CREEK,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,PACIFIC LIVESTOCK INC,Corporation
+36672,C003422,Mount Diablo,38.6367,-122.3822,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Certified,,AETNA SPRINGS RESORTS LLC,Limited Liability Company
+10091,C001454,Mount Diablo,38.6998,-12.2267,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+36100,C001435,Mount Diablo,38.5607,-122.3312,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+13009,A026268,Mount Diablo,38.5243,-122.2716,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,SAGE CANYON LLC,Individual
+13017,A026381,Mount Diablo,38.7116,-122.6053,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,JOHN,DAVIS JR,Individual
+11253,A026003A,Mount Diablo,38.7483,-122.6389,UNST,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,,MOUNT ST HELENA VINEYARDS,Government (State/Municipal)
+6316,A013597,Mount Diablo,38.6447,-122.4184,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,JULIANA MUTUAL WATER COMPANY,Government (State/Municipal)
+4078,A026452,Mount Diablo,38.6367,-122.3822,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Pope Creek,Active,Licensed,,JULIANA MUTUAL WATER COMPANY,Government (State/Municipal)
+2214,C003417,Mount Diablo,38.5292,-122.1916,UNST,PUTAH CREEK,Napa,,1.80E+11,Wragg Canyon-Putah Creek,Active,Certified,RICHARD,BARTHELEMY,Individual
+2216,C003427,Mount Diablo,38.7229,-122.5574,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,DEBRA,BOTTOMS,Individual
+8743,A018834,Mount Diablo,38.7256,-12.2625,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,,MIDDLETOWN RANCHERIA,Corporation
+8744,A018834,Mount Diablo,38.7264,-12.2625,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,,MIDDLETOWN RANCHERIA,Corporation
+1461,A023587,Mount Diablo,38.5874,-122.3429,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,HINE RANCH LLC,Limited Liability Company
+1462,A023588,Mount Diablo,38.5898,-12.2345,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,HINE RANCH LLC,Limited Liability Company
+1467,A023696,Mount Diablo,38.6243,-122.4433,BURTON CREEK,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,POPE VALLEY UNION SCHOOL DISTRICT,Government (State/Municipal)
+4302,C001434,Mount Diablo,38.5697,-122.3404,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,WILLIAM HARDIN TRUST,Corporation
+13678,C001081,Mount Diablo,0.3858,-122.3831,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,THE LAND TRUST OF NAPA COUNTY,Corporation
+4451,A029485,Mount Diablo,38.6747,-122.2501,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+4597,A025911,Mount Diablo,3.8736,-122.5315,UNST,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Inactive,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+4598,A025911,Mount Diablo,38.7349,-122.5287,UNST,PUTAH CREEK,Lake,WINERY EAST #1,1.80E+11,Bucksnort Creek,Active,Licensed,,"Langtry Farms, LLC",Limited Liability Company
+17008,C004576,Mount Diablo,38.6718,-122.2494,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,JOHN,AHMANN,Individual
+561,A013771,Mount Diablo,38.7345,-122.5515,UNCR,PUTAH CREEK,Lake,,1.80E+11,Bucksnort Creek,Active,Licensed,,PACIFIC GAS AND ELECTRIC COMPANY,Corporation
+21252,A026766,Mount Diablo,38.7325,-122.6318,HOODOO CREEK,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,JANET,ROSENTHAL,Individual
+21253,A026766,Mount Diablo,38.7344,-122.6311,HOODOO CREEK,PUTAH CREEK,Lake,,1.80E+11,Dry Creek-Putah Creek,Active,Licensed,JANET,ROSENTHAL,Individual
+21339,A027551,Mount Diablo,3.8658,-122.2256,UNST,PUTAH CREEK,Napa,RESERVOIR 5,1.80E+11,Jackson Creek-Putah Creek,Active,Licensed,ERICA,SMITHIES,Individual
+23621,A024432,Mount Diablo,38.6054,-122.3503,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,ST SUPERY INC,Corporation
+23640,A029633,Mount Diablo,38.6207,-12.2447,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,THOMAS,CLARK,Individual
+24333,C004027,Mount Diablo,38.5833,-122.3869,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,Usibelli Vineyards Inc ,Corporation
+24334,C004028,Mount Diablo,38.5925,-122.3975,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Certified,,Usibelli Vineyards Inc ,Corporation
+15336,C003130,Mount Diablo,38.6134,-122.2104,JACKSON CREEK,PUTAH CREEK,Napa,,1.80E+11,Jackson Creek-Putah Creek,Active,Certified,,CUMAL LTD,Corporation
+15415,C004006,Mount Diablo,38.7898,-122.6384,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+15416,C004010,Mount Diablo,38.7965,-122.6018,UNST,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+822,A029514,Mount Diablo,38.6195,-122.4482,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,JAMES,BURGESS,Individual
+910,A024587,Mount Diablo,38.5263,-122.2741,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,SAGE CANYON LLC,Individual
+23868,A022238,Mount Diablo,38.5673,-122.3851,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,BONNIE,STORM,Individual
+23869,A022252,Mount Diablo,38.7298,-122.6131,UNST,PUTAH CREEK,Lake,,1.80E+11,Saint Helena Creek,Active,Licensed,JAMES,PATTERSON,Individual
+15478,A026319,Mount Diablo,0.0387,-122.4789,UNSP,PUTAH CREEK,Napa,,1.80E+11,Butts Creek-Putah Creek,Active,Licensed,,MID CITY NURSERY INC,Government (State/Municipal)
+17248,A014974,Mount Diablo,38.6158,-122.4466,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,THOMAS,CLARK,Individual
+17858,A014392,Mount Diablo,38.6254,-122.4477,UNCR,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,"FCC NORTH AMERICA, LLC",Limited Liability Company
+18651,C004005,Mount Diablo,38.7852,-122.6301,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+18652,C004007,Mount Diablo,38.7908,-12.2624,UNST,PUTAH CREEK,Lake,,1.80E+11,Big Canyon Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+18653,C004011,Mount Diablo,38.7982,-122.6039,UNST,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Certified,,ASELLUS SONOMA LLC,Limited Liability Company
+18675,C001455,Mount Diablo,38.7069,-122.2751,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Certified,HUBERT,LAUFFS,Individual
+17964,A029483,Mount Diablo,38.6968,-122.2681,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+21671,A029484,Mount Diablo,3.8696,-122.2329,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+17990,A024272,Mount Diablo,38.6272,-122.4341,UNST,PUTAH CREEK,Napa,LOWER,1.80E+11,Maxwell Creek,Active,Licensed,,PERSEPHONE RANCH,Government (State/Municipal)
+17996,A026994,Mount Diablo,38.6243,-122.4432,BURTON CREEK,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,POPE VALLEY UNION SCHOOL DISTRICT,Government (State/Municipal)
+18113,A024646,Mount Diablo,38.6106,-122.3584,UNST,PUTAH CREEK,Napa,,1.80E+11,Maxwell Creek,Active,Licensed,,ST SUPERY INC,Corporation
+18116,A024667B,Mount Diablo,38.7845,-122.5485,PUTAH CREEK UNDERFLOW,PUTAH CREEK,Lake,,1.80E+11,Crazy Creek-Putah Creek,Active,Licensed,,SUTTER HOME VINEYARDS,Government (State/Municipal)
+23548,A029485,Mount Diablo,3.8688,-122.2551,UNST,PUTAH CREEK,Napa,,1.80E+11,Lower Eticuera Creek,Active,Licensed,,GAMBLE RANCH LLC,Limited Liability Company
+24122,A028891,Mount Diablo,38.5243,-122.2716,UNST,PUTAH CREEK,Napa,,1.80E+11,Capell Creek,Active,Licensed,,SAGE CANYON LLC,Individual
+37625,A025126,Humboldt,40.9402,-123.3793,BIRDIE M GULCH,TRINITY RIVER,Trinity,,1.80E+11,Quinby Creek-New River,Active,Licensed,FAROOQ,MIR,Individual
+26886,A026530,Humboldt,40.8791,-123.5285,TRINITY RIVER UNDERFLOW,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,DAVID,SULLIVAN,Individual
+35857,A023079A,Mount Diablo,40.7504,-123.0871,CONNOR CREEK,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,FRED,CHRIST,Individual
+1098,A025127,Humboldt,40.9402,-123.3793,BIRDIE M GULCH,TRINITY RIVER,Trinity,,1.80E+11,Quinby Creek-New River,Active,Licensed,HAROLD,KLEIN,Individual
+1330,A023079B,Mount Diablo,40.7512,-123.0828,CONNOR CREEK,TRINITY RIVER,Trinity,,1.80E+11,Conner Creek Trinity River,Active,Licensed,MICHAEL,SOLLAZZO,Individual
+1349,A026002,Humboldt,40.9343,-123.4088,DRY GULCH,TRINITY RIVER,Trinity,,1.80E+11,Quinby Creek-New River,Active,Licensed,EDWARD,HOLLAND,Individual
+1481,A026529A,Humboldt,40.8791,-123.5285,TRINITY RIVER UNDERFLOW,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,GARTH,SUNDBERG,Individual
+1482,A026531,Humboldt,40.8791,-123.5285,TRINITY RIVER UNDERFLOW,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,STAN,POFF,Individual
+24259,A029302,Humboldt,40.8892,-123.5564,TRINITY RIVER UNDERFLOW,TRINITY RIVER,Trinity,,1.80E+11,Sharber Creek-Trinity River,Active,Licensed,KATHERINE,RIDENOUR,Individual
+30762,C000977,Mount Diablo,36.9746,-12.1109,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+30799,C001083,Mount Diablo,37.5242,-120.0276,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,DANIEL,WATSON,Individual
+26624,C002911,Mount Diablo,36.8873,-121.0959,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+26631,C003037,Mount Diablo,37.0933,-121.1572,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,WOLFSEN LAND & CATTLE COMPANY,Corporation
+30256,C001539,Mount Diablo,36.8263,-120.9772,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+30257,C001546,Mount Diablo,36.8758,-120.9793,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+26994,C000973,Mount Diablo,36.9804,-121.0998,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+26995,C000980,Mount Diablo,36.9698,-121.1336,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+24784,C002919,Mount Diablo,36.9109,-121.1057,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+33259,C001327,Mount Diablo,36.9252,-119.6234,UNST,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lower Little Dry Creek,Active,Certified,,BIG DRY CREEK RANCH,Corporation
+24831,C003021,Mount Diablo,37.0979,-121.1683,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+38316,C002913,Mount Diablo,36.9095,-121.1009,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+32279,A028552,Mount Diablo,36.9979,-119.7033,SAN JOAQUIN RIVER,SAN JOAQUIN RIVER,Fresno,,1.80E+11,Lost Lake-San Joaquin River,Active,Licensed,,ORANGE COVE IRRIGATION DISTRICT,Government (State/Municipal)
+32847,C000978,Mount Diablo,36.9734,-121.1216,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+32848,C000984,Mount Diablo,36.9625,-121.1126,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+32852,C001084,Mount Diablo,37.5237,-12.0031,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,DANIEL,WATSON,Individual
+36548,C002912,Mount Diablo,36.8992,-121.1398,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+36592,C003019,Mount Diablo,37.1006,-121.1635,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+36593,C003024,Mount Diablo,37.0967,-121.1734,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+36622,C000970,Mount Diablo,36.9862,-121.1005,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+36623,C000985,Mount Diablo,36.9686,-121.1069,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+7454,C001543,Mount Diablo,36.8812,-121.0043,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,JOHN,ARBURUA,Individual
+9384,C001758,Mount Diablo,37.5167,-119.9969,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,EDWIN,FALLEK,Individual
+36176,C001533,Mount Diablo,36.8538,-120.9726,PIEDRA AZUL CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+36177,C001535,Mount Diablo,36.8699,-120.9351,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Ortigalita Creek,Active,Certified,JOHN,ARBURUA,Individual
+29842,A025688,Mount Diablo,36.7993,-120.1554,SAN JOAQUIN RIVER,SAN JOAQUIN VALLEY FLOOR,Madera,,1.80E+11,Bethany Cemetery-San Joaquin River,Active,Licensed,PATRICIA,MANNING,Individual
+9640,C003020,Mount Diablo,37.0961,-121.1909,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+15031,C001531,Mount Diablo,36.8869,-120.9352,PIEDRA AZUL CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+15032,C001536,Mount Diablo,36.8557,-120.9262,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Ortigalita Creek,Active,Certified,JOHN,ARBURUA,Individual
+15033,C001538,Mount Diablo,36.8478,-120.9617,MINER CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+7095,A028853,Mount Diablo,37.5222,-120.0015,MARIPOSA CREEK,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Licensed,JOSEPH,EDWARDS,Individual
+7778,C002628,Mount Diablo,37.5294,-120.0103,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,JOSEPH,EDWARDS,Individual
+13230,C001528,Mount Diablo,3.6855,-120.9528,MINER CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+13231,C001545,Mount Diablo,36.8771,-12.0994,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+13232,C001559,Mount Diablo,36.9119,-121.0004,CARRISALITO CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,BOB,ERRECA,Individual
+7872,C002914,Mount Diablo,36.8879,-121.1007,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,MICHELE,PREWETT,Individual
+7911,C003026,Mount Diablo,37.0845,-121.2041,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+7912,C003036,Mount Diablo,37.0721,-121.2119,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+7944,C000975,Mount Diablo,36.9808,-12.1123,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+7945,C000981,Mount Diablo,36.9681,-121.1411,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+7946,C000983,Mount Diablo,36.9591,-121.1259,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+3864,C002918,Mount Diablo,0.3687,-121.0958,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Lower South Fork Los Banos Creek,Active,Certified,ALLEN,COROTTO,Individual
+3867,C003022,Mount Diablo,37.1002,-121.1456,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,WOLFSEN LAND & CATTLE COMPANY,Corporation
+2128,C003028,Mount Diablo,37.0872,-12.1211,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+4028,A026011,Mount Diablo,36.9032,-120.9945,CARRISALITO CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Licensed,JOHN,ARBURUA,Individual
+13598,C003030,Mount Diablo,37.1001,-12.1206,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+13599,C003034,Mount Diablo,37.0881,-12.1233,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+13631,C000974,Mount Diablo,36.9708,-12.1098,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+2203,C001085,Mount Diablo,37.5198,-120.0252,UNST,MARIPOSA,Mariposa,,1.80E+11,Agua Fria Creek,Active,Certified,DANIEL,WATSON,Individual
+4215,C000969,Mount Diablo,3.7001,-121.1092,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+4216,C000982,Mount Diablo,36.9616,-121.1325,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+4307,C001529,Mount Diablo,36.8197,-12.0928,ORTIGALITA CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Ortigalita Creek,Active,Certified,JOHN,ARBURUA,Individual
+1646,C001532,Mount Diablo,36.8676,-120.9604,PIEDRA AZUL CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+1647,C001537,Mount Diablo,36.8303,-120.9469,MINER CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Certified,JOHN,ARBURUA,Individual
+15294,C003027,Mount Diablo,37.0859,-12.1199,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+15295,C003029,Mount Diablo,3.7091,-121.2158,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+15296,C003035,Mount Diablo,0.3708,-121.2229,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+2986,A019081,Mount Diablo,37.5198,-120.0776,UNXX,MARIPOSA,Mariposa,,1.80E+11,Corbet Creek-Bear Creek,Active,Licensed,JAMES,GILLISPIE,Individual
+22671,C004156,Mount Diablo,37.5167,-119.9695,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,MICHAEL,MARTIN,Individual
+3090,A025189,Mount Diablo,37.5222,-120.0015,MARIPOSA CREEK,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Licensed,JOSEPH,EDWARDS,Individual
+19167,C002915,Mount Diablo,36.8561,-121.0766,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Certified,,LAS AGUILAS CORP,Corporation
+19205,C003032,Mount Diablo,37.0953,-121.2251,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+19236,C000972,Mount Diablo,36.9746,-121.1052,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+17950,A026756,Mount Diablo,36.8894,-120.9311,PIEDRA AZUL CREEK,MIDDLE WEST SIDE,Merced,,1.80E+11,Piedra Azul Creek,Active,Licensed,BILLY,GRISSOM,Individual
+20982,C003031,Mount Diablo,37.0926,-121.2155,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+15616,C000971,Mount Diablo,36.9917,-121.0858,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation
+44165,C002916,Mount Diablo,36.8443,-121.0982,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Upper South Fork Los Banos Creek,Active,Certified,ALLEN,COROTTO,Individual
+42229,C002627,Mount Diablo,37.5307,-120.0027,UNST,MARIPOSA,Mariposa,,1.80E+11,Stockton Creek-Mariposa Creek,Active,Certified,JOSEPH,EDWARDS,Individual
+43884,C001550,Mount Diablo,36.9011,-121.0208,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,Carrisalito Creek-Los Banos Creek,Active,Certified,,DAN STADTLER FAMILY RANCHES LLC,Limited Liability Company
+42343,C003023,Mount Diablo,37.0918,-121.1696,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,San Luis Reservoir-San Luis Creek,Active,Certified,,CALIFORNIA DEPARTMENT OF FISH AND WILDLIFE,Government (State/Municipal)
+42383,C000979,Mount Diablo,36.9618,-121.1414,UNST,MIDDLE WEST SIDE,Merced,,1.80E+11,North Fork Los Banos Creek,Active,Certified,,MENEFEE HILL RANCH COMPANY,Corporation

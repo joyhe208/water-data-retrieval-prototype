@@ -1,0 +1,130 @@
+ID,NAME,TYPE,POP
+1,Los Angeles--Long Beach--Anaheim,UA,12150996
+2,San Francisco--Oakland,UA,3281212
+3,San Diego,UA,2956746
+4,Riverside--San Bernardino,UA,1932666
+5,Sacramento,UA,1723634
+6,San Jose,UA,1664496
+7,Fresno,UA,654628
+8,Concord,UA,615968
+9,Mission Viejo--Lake Forest--San Clemente,UA,583681
+10,Bakersfield,UA,523994
+11,Murrieta--Temecula--Menifee,UA,441546
+--,Reno NV--CA,UA,392141
+12,Stockton,UA,370583
+13,Oxnard,UA,367260
+14,Modesto,UA,358172
+15,Indio--Cathedral City,UA,345580
+16,Lancaster--Palmdale,UA,341219
+17,Victorville--Hesperia,UA,328454
+18,Santa Rosa,UA,308231
+19,Antioch,UA,277634
+20,Santa Clarita,UA,258653
+21,Visalia,UA,219454
+22,Thousand Oaks,UA,214811
+23,Santa Barbara,UA,195861
+24,Salinas,UA,184809
+25,Vallejo,UA,165074
+26,Santa Cruz,UA,163703
+27,Hemet,UA,163379
+28,Merced,UA,136969
+--,Yuma AZ--CA,UA,135267
+29,Fairfield,UA,133683
+30,Santa Maria,UA,130447
+31,Simi Valley,UA,125206
+32,Redding,UA,117731
+33,Yuba City,UA,116719
+34,Seaside--Monterey,UA,114237
+35,Porterville,UA,111804
+36,El Centro--Calexico,UA,107672
+37,Turlock,UA,99904
+38,Gilroy--Morgan Hill,UA,98413
+39,Chico,UA,98176
+40,Vacaville,UA,93141
+41,Hanford,UA,87941
+42,Tracy,UA,87569
+43,Napa,UA,83913
+44,Manteca,UA,83578
+45,Livermore,UA,81624
+46,Madera,UA,78413
+47,Watsonville,UA,73534
+48,Davis,UA,72794
+49,Camarillo,UA,71772
+50,Lodi,UA,68738
+51,Paso Robles--Atascadero,UA,65088
+52,Petaluma,UA,64078
+53,San Luis Obispo,UA,59219
+54,Woodland,UA,55513
+55,Delano,UA,54372
+56,Arroyo Grande--Grover Beach,UA,52000
+57,Lompoc,UA,51509
+58,Reedley--Dinuba,UC,46247
+59,Eureka,UC,45034
+60,Hollister,UC,42002
+61,Selma,UC,41810
+62,Desert Hot Springs,UC,39445
+63,Oroville,UC,37122
+64,Los Banos,UC,35917
+65,Paradise,UC,34725
+66,Grass Valley,UC,34308
+67,Auburn--North Auburn,UC,33157
+68,Sonoma,UC,32678
+69,Arcata--McKinleyville,UC,32364
+70,Ridgecrest,UC,31155
+71,Santa Paula,UC,29742
+72,Ukiah,UC,29709
+73,Placerville--Diamond Springs,UC,29700
+74,South Lake Tahoe CA--NV,UC,29107
+75,Barstow,UC,28973
+76,Sonora--Jamestown--Phoenix Lake,UC,28255
+77,Morro Bay--Los Osos,UC,26772
+78,Sanger,UC,26604
+79,Lemoore,UC,26193
+80,Soledad,UC,25943
+81,Ramona,UC,25913
+82,Corcoran,UC,25516
+83,Wasco,UC,25489
+84,Brawley,UC,25032
+85,Galt,UC,24912
+86,Yucca Valley,UC,23805
+87,Lake Arrowhead--Crestline,UC,22175
+88,Patterson,UC,20781
+89,Half Moon Bay,UC,20713
+90,Arvin,UC,19573
+91,Crescent City,UC,18976
+92,Dixon,UC,18445
+93,Red Bluff,UC,18434
+94,Shafter,UC,18098
+95,Lakeport,UC,16583
+96,Tehachapi--Golden Hills,UC,16540
+97,Greenfield,UC,16451
+98,Rosamond,UC,16000
+99,Clearlake,UC,15944
+100,Nipomo,UC,15882
+101,Big Bear City,UC,15873
+102,Avenal,UC,15486
+103,Orosi,UC,15150
+104,Fillmore,UC,15081
+105,Taft,UC,14985
+106,Solvang--Buellton--Santa Ynez,UC,14862
+107,Lindsay,UC,14610
+108,King City,UC,14529
+109,Parlier,UC,14490
+110,Discovery Bay,UC,14044
+111,Kerman,UC,13487
+112,Earlimart,UC,13211
+113,Fortuna,UC,13084
+--,Incline Village NV--CA,UC,13022
+113,"Blythe, CA--AZ",UC,12967
+114,Twentynine Palms,UC,12895
+115,McFarland,UC,12826
+116,Coalinga,UC,12702
+117,Truckee,UC,12139
+118,Chowchilla,UC,11843
+119,Lake Los Angeles,UC,11808
+120,Mecca,UC,11253
+121,Mendota,UC,11211
+122,California City,UC,10908
+123,Fort Bragg,UC,10348
+124,Susanville,UC,10285
+125,Newman,UC,10223
