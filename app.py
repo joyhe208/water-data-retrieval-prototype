@@ -33,8 +33,6 @@ def index():
         if(layer == "getStreamflow"):
             stations = req['stations']
             dateRange = req['dateRange']
-            print(stations)
-            print(dateRange)
             params = {
                 'categorical':False,
                 'columnList':['streamflow'],
@@ -47,10 +45,8 @@ def index():
                 'aggregate':{'streamflow':'sum'},
                 'dateRange':dateRange
             }
-
             getData = GetDatabaseTableData('streamflow.csv',config,params)
             data = getData.accessData()
-            #data = GetTableData("./static/streamFlows/test11476500.csv").accessData()
             res = Response(json.dumps(data,default=convert), mimetype='application/json')
         else:
             if("json" in mapLayerFiles[layer]):
@@ -58,7 +54,6 @@ def index():
                 
             else:
                 getData = GetTableData(mapLayerFiles[layer])
-            
             data = getData.accessData()
             if("csv" in mapLayerFiles[layer]):
                 res = Response(json.dumps(data,default=convert), mimetype='application/json')

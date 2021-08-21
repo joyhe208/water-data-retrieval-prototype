@@ -53,7 +53,7 @@ class GetJsonData(GetFormattedData):
 
 class GetDatabaseTableData(GetTableData):
     def __init__(self,filename,config, params):
-        self.query = run(params) #make sqltranslate object 
+        self.query = run(params) #make sqltranslate object using this function from sqltranslate package
         self.ctx = snowflake.connector.connect(
             user= config['user'],
             password= config['password'],
